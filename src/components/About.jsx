@@ -129,15 +129,15 @@ export default function About() {
             India’s growth in science, technology, and industry.
           </p>
           <ul className="space-y-4 text-gray-700 text-lg">
-            <li className="flex items-center gap-2">
+            <li className="flex  gap-2">
               <FaStar className="text-secondary shrink-0 mt-2" />
               Creating national benchmarks in aviation-based learning{" "}
             </li>
-            <li className="flex items-center gap-2">
+            <li className="flex  gap-2">
               <FaStar className="text-secondary shrink-0 mt-2" />
               Inspiring innovation, curiosity, and critical thinking
             </li>
-            <li className="flex items-center gap-2">
+            <li className="flex gap-2">
               <FaStar className="text-secondary shrink-0 mt-2" />
               Shaping future professionals for India’s aviation growth
             </li>
