@@ -61,17 +61,17 @@ export default function About() {
             learners in line with NEP 2020.
           </p>
           <ul className="space-y-4 text-gray-700 text-lg">
-            <li className="flex items-center gap-2">
-              <FaStar className="text-secondary shrink-0" />
+            <li className="flex  gap-2">
+              <FaStar className="text-secondary shrink-0 mt-2" />
               Providing equal opportunities through online & offline platforms
             </li>
-            <li className="flex items-center gap-2">
-              <FaStar className="text-secondary shrink-0" />
+            <li className="flex  gap-2">
+              <FaStar className="text-secondary shrink-0 mt-2" />
               Recognizing and rewarding talent with scholarships, prizes, and
               certifications{" "}
             </li>
-            <li className="flex items-center gap-2">
-              <FaStar className="text-secondary shrink-0" />
+            <li className="flex  gap-2">
+              <FaStar className="text-secondary shrink-0 mt-2" />
               Building a nationwide community of aspiring aviators and
               innovators
             </li>
@@ -130,15 +130,15 @@ export default function About() {
           </p>
           <ul className="space-y-4 text-gray-700 text-lg">
             <li className="flex items-center gap-2">
-              <FaStar className="text-secondary shrink-0" />
+              <FaStar className="text-secondary shrink-0 mt-2" />
               Creating national benchmarks in aviation-based learning{" "}
             </li>
             <li className="flex items-center gap-2">
-              <FaStar className="text-secondary shrink-0" />
+              <FaStar className="text-secondary shrink-0 mt-2" />
               Inspiring innovation, curiosity, and critical thinking
             </li>
             <li className="flex items-center gap-2">
-              <FaStar className="text-secondary shrink-0" />
+              <FaStar className="text-secondary shrink-0 mt-2" />
               Shaping future professionals for India’s aviation growth
             </li>
           </ul>
