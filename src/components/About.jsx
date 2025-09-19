@@ -62,16 +62,16 @@ export default function About() {
           </p>
           <ul className="space-y-4 text-gray-700 text-lg">
             <li className="flex  gap-2">
-              <FaStar className="text-secondary shrink-0 mt-2" />
+              <FaStar className="text-secondary shrink-0 mt-1.5" />
               Providing equal opportunities through online & offline platforms
             </li>
             <li className="flex  gap-2">
-              <FaStar className="text-secondary shrink-0 mt-2" />
+              <FaStar className="text-secondary shrink-0 mt-1.5" />
               Recognizing and rewarding talent with scholarships, prizes, and
               certifications{" "}
             </li>
             <li className="flex  gap-2">
-              <FaStar className="text-secondary shrink-0 mt-2" />
+              <FaStar className="text-secondary shrink-0 mt-1.5" />
               Building a nationwide community of aspiring aviators and
               innovators
             </li>
@@ -130,15 +130,15 @@ export default function About() {
           </p>
           <ul className="space-y-4 text-gray-700 text-lg">
             <li className="flex  gap-2">
-              <FaStar className="text-secondary shrink-0 mt-2" />
+              <FaStar className="text-secondary shrink-0 mt-1.5" />
               Creating national benchmarks in aviation-based learning{" "}
             </li>
             <li className="flex  gap-2">
-              <FaStar className="text-secondary shrink-0 mt-2" />
+              <FaStar className="text-secondary shrink-0 mt-1.5" />
               Inspiring innovation, curiosity, and critical thinking
             </li>
             <li className="flex gap-2">
-              <FaStar className="text-secondary shrink-0 mt-2" />
+              <FaStar className="text-secondary shrink-0 mt-1.5" />
               Shaping future professionals for India’s aviation growth
             </li>
           </ul>
