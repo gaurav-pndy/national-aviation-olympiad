@@ -31,7 +31,7 @@ const faqs = [
 export default function Contact() {
   const [openFaq, setOpenFaq] = useState(0);
   return (
-    <section id="contact" className="py-16  bg-white">
+    <section id="contact" className="py-16 overflow-x-hidden bg-white">
       {/* Heading and Description */}
       <motion.div
         className="max-w-4xl px-4 md:px-6 mx-auto text-center mb-10"

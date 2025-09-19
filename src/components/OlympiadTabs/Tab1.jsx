@@ -30,20 +30,28 @@ const Tab1 = ({ zones }) => {
               </div>
               <ul className="text-gray-700   space-y-1">
                 <li className="flex items-center">
-                  <FaCircle className="text-secondary text-xs mr-2" /> Conducted
-                  at individual schools across India
+                  <FaCircle className=" shrink-0 text-secondary text-xs mr-2" />{" "}
+                  Conducted at individual schools across India
                 </li>
                 <li className="flex ">
-                  <FaCircle className="text-secondary mt-1.5 text-xs mr-2" />{" "}
-                  Multiple choice questions covering basic aviation concepts
+                  <FaCircle className=" shrink-0 text-secondary mt-1.5 text-xs mr-2" />{" "}
+                  <span>
+                    Multiple choice questions covering{" "}
+                    <b>fundamental aviation concepts</b>{" "}
+                  </span>
                 </li>
                 <li className="flex ">
-                  <FaCircle className="text-secondary mt-1.5 text-xs mr-2" />{" "}
-                  Duration: 90 minutes
+                  <FaCircle className=" shrink-0 text-secondary mt-1.5 text-xs mr-2" />{" "}
+                  <span>
+                    {" "}
+                    <strong> Duration: </strong> 90 minutes{" "}
+                  </span>
                 </li>
                 <li className="flex ">
-                  <FaCircle className="text-secondary mt-1.5 text-xs mr-2" /> 50
-                  questions total
+                  <FaCircle className=" shrink-0 text-secondary mt-1.5 text-xs mr-2" />{" "}
+                  <span>
+                    <b>Total Questions: </b> 50{" "}
+                  </span>
                 </li>
               </ul>
             </div>
@@ -54,7 +62,7 @@ const Tab1 = ({ zones }) => {
               <div className=" w-full bg-white border border-gray-300 px-4 py-4 inline-block  text-2xl text-primary text-center">
                 Top 3
                 <div className="text-sm text-gray-600 font-normal">
-                  students per school qualify for Zonal Level
+                  from each school qualify for the Zonal Level
                 </div>
               </div>
             </div>
@@ -87,20 +95,34 @@ const Tab1 = ({ zones }) => {
               </div>
               <ul className="text-gray-700  space-y-1">
                 <li className="flex ">
-                  <FaCircle className="text-secondary mt-1.5 text-xs mr-2" />
-                  India divided into 4 zones: North, South, East, West
+                  <FaCircle className=" shrink-0 text-secondary mt-1.5 text-xs mr-2" />
+                  <span>
+                    {" "}
+                    India divided into <b>4 zones</b>: North, South, East, West
+                  </span>
                 </li>
                 <li className="flex ">
-                  <FaCircle className="text-secondary mt-1.5 text-xs mr-2" />
-                  Advanced aviation content and problem-solving
+                  <FaCircle className=" shrink-0 text-secondary mt-1.5 text-xs mr-2" />
+                  <span>
+                    {" "}
+                    Advanced aviation content and <b>
+                      problem-solving focus
+                    </b>{" "}
+                  </span>
                 </li>
                 <li className="flex ">
-                  <FaCircle className="text-secondary mt-1.5 text-xs mr-2" />
-                  Duration: 120 minutes
+                  <FaCircle className=" shrink-0 text-secondary mt-1.5 text-xs mr-2" />
+                  <span>
+                    {" "}
+                    <b> Duration:</b> 120 minutes{" "}
+                  </span>
                 </li>
                 <li className="flex items-center">
-                  <FaCircle className="text-secondary text-xs mr-2" />
-                  75 questions including descriptive answers
+                  <FaCircle className=" shrink-0 text-secondary text-xs mr-2" />
+                  <span>
+                    {" "}
+                    <b>Total Questions:</b> 75 (including descriptive answers){" "}
+                  </span>
                 </li>
               </ul>
             </div>
@@ -119,6 +141,9 @@ const Tab1 = ({ zones }) => {
                 </div>
               </div>
             </div>
+          </div>
+          <div className="mb-3 text-primary text-lg mt-4">
+            Zone Distribution
           </div>
           <div className="text-xs text-gray-600 mt-4 grid grid-cols-2 md:grid-cols-4 gap-4">
             {zones.map((z) => (
@@ -160,20 +185,33 @@ const Tab1 = ({ zones }) => {
               </div>
               <ul className="text-gray-700  space-y-1">
                 <li className="flex ">
-                  <FaCircle className="text-secondary mt-1.5 text-xs mr-2" />
-                  Conducted in New Delhi with all national qualifiers
+                  <FaCircle className=" shrink-0 text-secondary mt-1.5 text-xs mr-2" />
+                  <span>
+                    {" "}
+                    Conducted in <b>New Delhi</b> with all national qualifiers{" "}
+                  </span>
                 </li>
                 <li className="flex ">
-                  <FaCircle className="text-secondary mt-1.5 text-xs mr-2" />
-                  Comprehensive aviation knowledge assessment
+                  <FaCircle className=" shrink-0 text-secondary mt-1.5 text-xs mr-2" />
+                  <span>
+                    {" "}
+                    Comprehensive assessment of{" "}
+                    <b>aviation knowledge & applications</b>{" "}
+                  </span>
                 </li>
                 <li className="flex ">
-                  <FaCircle className="text-secondary mt-1.5 text-xs mr-2" />
-                  Duration: 180 minutes
+                  <FaCircle className=" shrink-0 text-secondary mt-1.5 text-xs mr-2" />
+                  <span>
+                    {" "}
+                    <b>Duration:</b> 180 minutes{" "}
+                  </span>
                 </li>
                 <li className="flex ">
-                  <FaCircle className="text-secondary mt-1.5 text-xs mr-2" />
-                  100 questions with practical applications
+                  <FaCircle className=" shrink-0 text-secondary mt-1.5 text-xs mr-2" />
+                  <span>
+                    {" "}
+                    <b>Total Questions: </b> 100 (practical applications based){" "}
+                  </span>
                 </li>
               </ul>
             </div>
@@ -183,16 +221,23 @@ const Tab1 = ({ zones }) => {
               </div>
               <div className="w-full bg-white border border-gray-300 px-4 py-4 inline-block  text-gray-700 text-center space-y-1">
                 <div className="flex items-start  text-left">
-                  <FaTrophy className="text-secondary mt-1.5 text-xs mr-2" />
-                  Winner receives Cash Prize (TBA)
+                  <FaTrophy className="shrink-0 text-secondary mt-1.5 text-xs mr-2" />
+                  <span>
+                    {" "}
+                    <b>Cash Prize</b> for the Winner (TBA){" "}
+                  </span>
                 </div>
                 <div className="flex items-start  text-left">
-                  <FaTrophy className="text-secondary mt-1.5 text-xs mr-2" />
-                  National recognition certificate
+                  <FaTrophy className="shrink-0 text-secondary mt-1.5 text-xs mr-2" />
+                  <b> National recognition certificate</b>
                 </div>
                 <div className="flex items-start  text-left">
-                  <FaTrophy className="text-secondary mt-1.5 text-xs mr-2" />
-                  Aviation industry internship opportunities
+                  <FaTrophy className="shrink-0 text-secondary mt-1.5 text-xs mr-2" />
+                  <span>
+                    {" "}
+                    <b>Internship opportunities</b> with aviation industry
+                    leaders{" "}
+                  </span>
                 </div>
               </div>
             </div>

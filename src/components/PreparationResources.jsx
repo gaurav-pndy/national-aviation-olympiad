@@ -80,10 +80,7 @@ export default function PreparationResources() {
             </li>
             <li className="flex items-start">
               <FaCheck className="text-secondary mr-2 mt-1" />
-              Previous year{" "}
-              <a href="#" className="text-primary underline">
-                sample papers
-              </a>
+              Previous year sample papers
             </li>
             <li className="flex items-start">
               <FaCheck className="text-secondary mr-2 mt-1" />

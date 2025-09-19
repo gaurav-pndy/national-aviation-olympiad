@@ -19,9 +19,8 @@ export default function HeroSection() {
             Aviation Olympiad
           </h1>
           <p className="text-lg md:text-xl text-gray-700 mb-8">
-            For Classes 8–12 | Pan India | Inspiring the Next Generation of
-            Aviators through comprehensive aviation education and competitive
-            excellence.
+            For classes 8th to 12th. Inspiring the next generation aviators
+            through comprehensive aviation education and competitive excellence.
           </p>
           <div className="flex gap-4 justify-center lg:justify-start">
             <motion.button

@@ -26,15 +26,20 @@ export default function About() {
           viewport={{ once: true }}
           transition={{ delay: 0.1, duration: 0.6 }}
         >
-          The National Aviation Olympiad is India's pioneering educational
-          initiative designed to promote aviation knowledge and inspire the next
-          generation of aviation professionals among students from Classes 8 to
-          12.
+          The <b> National Aviation Olympiad (NAO)</b> is India’s first
+          dedicated Olympiad designed to inspire and connect students with the
+          exciting world of aviation. Aligned with the vision of <b>NEP 2020</b>
+          , it aims to build{" "}
+          <b>
+            critical thinking, logical reasoning, and problem-solving skills
+          </b>{" "}
+          among students while introducing them to aviation and aerospace
+          opportunities.
         </motion.p>
       </div>
 
       {/* Content Grid */}
-      <div className="grid lg:grid-cols-2 gap-10 mb-16">
+      <div className="grid lg:grid-cols-2 gap-10 mb-16 items-center">
         {/* Mission */}
         <motion.div
           className=" flex flex-col justify-center "
@@ -47,24 +52,27 @@ export default function About() {
             Our Mission
           </h3>
           <p className="text-gray-700 text-lg mb-6">
-            To create a comprehensive platform that nurtures aviation knowledge,
-            promotes STEM education, and identifies talented young minds who can
-            contribute to India's growing aviation sector. We aim to bridge the
-            gap between theoretical knowledge and practical aviation
-            applications.
+            The mission of the National Aviation Olympiad is to empower students
+            of Classes 8–12 with a structured, syllabus-aligned competition that
+            enhances critical thinking, logical reasoning, and awareness of
+            aviation and aerospace. Through multi-level tests, rewards, and
+            national recognition, the Olympiad strives to nurture talent,
+            support schools, and create a future-ready community of young
+            learners in line with NEP 2020.
           </p>
           <ul className="space-y-4 text-gray-700 text-lg">
             <li className="flex items-center gap-2">
               <FaCheckCircle className="text-secondary" />
-              Promoting aviation education across all Indian states
+              Providing equal opportunities through online & offline platforms
+            </li>
+            <li className="flex items-center gap-2">
+              <FaCheckCircle className="text-secondary" />⭐ Recognizing and
+              rewarding talent with scholarships, prizes, and certifications{" "}
             </li>
             <li className="flex items-center gap-2">
               <FaCheckCircle className="text-secondary" />
-              Encouraging STEM learning through aviation concepts
-            </li>
-            <li className="flex items-center gap-2">
-              <FaCheckCircle className="text-secondary" />
-              Building a foundation for future aviation careers
+              Building a nationwide community of aspiring aviators and
+              innovators
             </li>
           </ul>
         </motion.div>
@@ -84,7 +92,7 @@ export default function About() {
         </motion.div>
       </div>
 
-      <div className="grid lg:grid-cols-2 gap-10">
+      <div className="grid lg:grid-cols-2 gap-10 items-center">
         {/* Excellence & Achievement Visual */}
         <motion.div
           className="flex row-start-2 lg:row-start-1 items-center justify-center max-h-90"
@@ -111,23 +119,26 @@ export default function About() {
             Our Vision
           </h3>
           <p className="text-gray-700 text-lg mb-6">
-            To establish the National Aviation Olympiad as the premier
-            educational competition in India that shapes young aviation
-            enthusiasts into knowledgeable professionals, contributing to the
-            nation's aviation industry growth and technological advancement.
+            The vision of the National Aviation Olympiad is to establish itself
+            as the leading educational platform that inspires students of
+            Classes 8–12 to explore aviation and aerospace, while building
+            future-ready skills like innovation, logical reasoning, and
+            problem-solving. By nurturing curiosity and excellence, the Olympiad
+            aims to shape tomorrow’s leaders in aviation, contributing to
+            India’s growth in science, technology, and industry.
           </p>
           <ul className="space-y-4 text-gray-700 text-lg">
             <li className="flex items-center gap-2">
               <FaStar className="text-secondary" />
-              Creating national standards for aviation education
+              Creating national benchmarks in aviation-based learning{" "}
             </li>
             <li className="flex items-center gap-2">
               <FaStar className="text-secondary" />
-              Fostering innovation and critical thinking
+              Inspiring innovation, curiosity, and critical thinking
             </li>
             <li className="flex items-center gap-2">
               <FaStar className="text-secondary" />
-              Supporting India's aviation industry development
+              Shaping future professionals for India’s aviation growth
             </li>
           </ul>
         </motion.div>

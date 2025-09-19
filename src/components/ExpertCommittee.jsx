@@ -75,9 +75,10 @@ export default function ExpertCommittee() {
           viewport={{ once: true }}
           transition={{ delay: 0.08, duration: 0.6 }}
         >
-          Our distinguished panel of aviation experts, educators, and industry
-          professionals who guide the Olympiad’s academic standards and ensure
-          excellence in aviation education.
+          Our esteemed panel brings together aviation experts, seasoned
+          educators, and industry leaders who provide guidance, set academic
+          benchmarks, and uphold the highest standards of excellence for the
+          Olympiad.
         </motion.p>
       </div>
       <div className="max-w-7xl px-4 md:px-6 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
