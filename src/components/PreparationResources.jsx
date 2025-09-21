@@ -22,7 +22,7 @@ export default function PreparationResources() {
           Preparation Resources
         </h2>
         <p className="text-gray-700 max-w-3xl text-lg md:text-xl text-justify mx-auto">
-          Comprehensive study materials and resources designed to help students
+          Comprehensive study material and resources designed to help students
           excel in the National Aviation Olympiad across all three stages of
           competition.
         </p>
@@ -30,8 +30,34 @@ export default function PreparationResources() {
 
       {/* Resource Cards */}
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-7 mb-12">
-        {/* Study Guides */}
         <motion.div
+          className="bg-white border font-semibold text-xl border-gray-300 p-6 flex justify-center items-center"
+          initial={{ opacity: 0, y: 40 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ delay: 0.05, duration: 0.5 }}
+        >
+          TBA
+        </motion.div>
+        <motion.div
+          className="bg-white border font-semibold text-xl border-gray-300 p-6 flex justify-center items-center"
+          initial={{ opacity: 0, y: 40 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ delay: 0.1, duration: 0.5 }}
+        >
+          TBA
+        </motion.div>
+        <motion.div
+          className="bg-white border font-semibold text-xl border-gray-300 p-6 flex justify-center items-center"
+          initial={{ opacity: 0, y: 40 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ delay: 0.15, duration: 0.5 }}
+        >
+          TBA
+        </motion.div>
+        {/* <motion.div
           className="bg-white border border-gray-300 p-6 flex flex-col items-center"
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -63,7 +89,6 @@ export default function PreparationResources() {
             Download PDF
           </motion.button>
         </motion.div>
-        {/* Question Banks */}
         <motion.div
           className="bg-white border border-gray-300 p-6 flex flex-col items-center"
           initial={{ opacity: 0, y: 40 }}
@@ -96,7 +121,6 @@ export default function PreparationResources() {
             Download PDF
           </motion.button>
         </motion.div>
-        {/* Video Tutorials */}
         <motion.div
           className="bg-white border border-gray-300 p-6 flex flex-col items-center"
           initial={{ opacity: 0, y: 40 }}
@@ -128,7 +152,7 @@ export default function PreparationResources() {
             <FaPlay />
             Watch Now
           </motion.button>
-        </motion.div>
+        </motion.div> */}
       </div>
 
       {/* Syllabus Overview */}
@@ -145,6 +169,51 @@ export default function PreparationResources() {
         </div>
         <div className="grid grid-cols-2 md:grid-cols-5 gap-5 text-center">
           <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ delay: 0.25, duration: 0.4 }}
+          >
+            <div className="text-primary text-lg mb-1">Class 8</div>
+            <div className="text-xl ">TBA</div>
+          </motion.div>
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ delay: 0.3, duration: 0.4 }}
+          >
+            <div className="text-primary text-lg mb-1">Class 9</div>
+            <div className="text-xl ">TBA</div>
+          </motion.div>
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ delay: 0.35, duration: 0.4 }}
+          >
+            <div className="text-primary text-lg mb-1">Class 10</div>
+            <div className="text-xl">TBA</div>
+          </motion.div>
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ delay: 0.4, duration: 0.4 }}
+          >
+            <div className="text-primary text-lg mb-1">Class 11</div>
+            <div className="text-xl ">TBA</div>
+          </motion.div>
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ delay: 0.45, duration: 0.4 }}
+          >
+            <div className="text-primary text-lg mb-1">Class 12</div>
+            <div className="text-xl">TBA</div>
+          </motion.div>
+          {/* <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -228,7 +297,7 @@ export default function PreparationResources() {
               <br />
               Career Pathways
             </div>
-          </motion.div>
+          </motion.div> */}
         </div>
       </motion.div>
     </section>

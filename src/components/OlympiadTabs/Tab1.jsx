@@ -19,8 +19,8 @@ const Tab1 = ({ zones }) => {
               1
             </div>
             <div className=" text-primary  text-xl">
-              Stage 1: School Level{" "}
-              <p className="text-gray-800 text-sm">January 2026</p>
+              Stage 1: School Level (Online Screening Test){" "}
+              <p className="text-gray-800 text-sm">August 2026</p>
             </div>
           </div>
           <div className="flex flex-col md:flex-row gap-8">
@@ -36,22 +36,19 @@ const Tab1 = ({ zones }) => {
                 <li className="flex ">
                   <FaCircle className=" shrink-0 text-secondary mt-1.5 text-xs mr-2" />{" "}
                   <span>
-                    Multiple choice questions covering{" "}
-                    <b>fundamental aviation concepts</b>{" "}
+                    Multiple choice questions covering basic aviation concepts{" "}
                   </span>
                 </li>
                 <li className="flex ">
                   <FaCircle className=" shrink-0 text-secondary mt-1.5 text-xs mr-2" />{" "}
                   <span>
                     {" "}
-                    <strong> Duration: </strong> 90 minutes{" "}
+                    <strong> Duration: </strong> 65 minutes{" "}
                   </span>
                 </li>
                 <li className="flex ">
                   <FaCircle className=" shrink-0 text-secondary mt-1.5 text-xs mr-2" />{" "}
-                  <span>
-                    <b>Total Questions: </b> 50{" "}
-                  </span>
+                  <span>60 Questions</span>
                 </li>
               </ul>
             </div>
@@ -62,7 +59,7 @@ const Tab1 = ({ zones }) => {
               <div className=" w-full bg-white border border-gray-300 px-4 py-4 inline-block  text-2xl text-primary text-center">
                 Top 3
                 <div className="text-sm text-gray-600 font-normal">
-                  from each school qualify for the Zonal Level
+                  students per school per grade qualify for zonal level
                 </div>
               </div>
             </div>
@@ -84,8 +81,8 @@ const Tab1 = ({ zones }) => {
               2
             </div>
             <div className=" text-primary  text-xl">
-              Stage 2: Zonal Level{" "}
-              <p className="text-gray-800 text-sm">April 2026</p>
+              Stage 2: State/UT Round{" "}
+              <p className="text-gray-800 text-sm">October 2026</p>
             </div>
           </div>
           <div className="flex flex-col md:flex-row gap-8">
@@ -98,31 +95,23 @@ const Tab1 = ({ zones }) => {
                   <FaCircle className=" shrink-0 text-secondary mt-1.5 text-xs mr-2" />
                   <span>
                     {" "}
-                    India divided into <b>4 zones</b>: North, South, East, West
+                    Exam conducted in 4 zones : north, south, east, west
                   </span>
+                </li>
+                <li className="flex ">
+                  <FaCircle className=" shrink-0 text-secondary mt-1.5 text-xs mr-2" />
+                  <span> Advanced aviation content and problem-solving </span>
                 </li>
                 <li className="flex ">
                   <FaCircle className=" shrink-0 text-secondary mt-1.5 text-xs mr-2" />
                   <span>
                     {" "}
-                    Advanced aviation content and <b>
-                      problem-solving focus
-                    </b>{" "}
-                  </span>
-                </li>
-                <li className="flex ">
-                  <FaCircle className=" shrink-0 text-secondary mt-1.5 text-xs mr-2" />
-                  <span>
-                    {" "}
-                    <b> Duration:</b> 120 minutes{" "}
+                    <b> Duration:</b> 95 minutes{" "}
                   </span>
                 </li>
                 <li className="flex items-center">
                   <FaCircle className=" shrink-0 text-secondary text-xs mr-2" />
-                  <span>
-                    {" "}
-                    <b>Total Questions:</b> 75 (including descriptive answers){" "}
-                  </span>
+                  <span>90 Questions</span>
                 </li>
               </ul>
             </div>
@@ -131,11 +120,11 @@ const Tab1 = ({ zones }) => {
                 Qualification Criteria
               </div>
               <div className=" w-full bg-white border border-gray-300 px-4 py-4 inline-block  text-2xl text-primary text-center">
-                5
+                Top 5
                 <div className="text-sm mb-1 text-gray-600 font-normal">
-                  winners per state (Classes 8-12)
+                  winners per state & UT (Classes 8-12)
                 </div>
-                140
+                180
                 <div className="text-sm  text-gray-600 font-normal">
                   students qualify nationally
                 </div>
@@ -175,7 +164,7 @@ const Tab1 = ({ zones }) => {
             </div>
             <div className=" text-primary  text-xl">
               Stage 3: National Level{" "}
-              <p className="text-gray-800 text-sm">June 2026 in New Delhi</p>
+              <p className="text-gray-800 text-sm">December 2026, New Delhi</p>
             </div>
           </div>
           <div className="flex flex-col md:flex-row gap-8">
@@ -188,30 +177,23 @@ const Tab1 = ({ zones }) => {
                   <FaCircle className=" shrink-0 text-secondary mt-1.5 text-xs mr-2" />
                   <span>
                     {" "}
-                    Conducted in <b>New Delhi</b> with all national qualifiers{" "}
+                    Conducted in New Delhi with all national qualifiers{" "}
                   </span>
+                </li>
+                <li className="flex ">
+                  <FaCircle className=" shrink-0 text-secondary mt-1.5 text-xs mr-2" />
+                  <span> Comprehensive aviation knowledge assessment</span>
                 </li>
                 <li className="flex ">
                   <FaCircle className=" shrink-0 text-secondary mt-1.5 text-xs mr-2" />
                   <span>
                     {" "}
-                    Comprehensive assessment of{" "}
-                    <b>aviation knowledge & applications</b>{" "}
+                    <b>Duration:</b> 4 Hours{" "}
                   </span>
                 </li>
                 <li className="flex ">
                   <FaCircle className=" shrink-0 text-secondary mt-1.5 text-xs mr-2" />
-                  <span>
-                    {" "}
-                    <b>Duration:</b> 180 minutes{" "}
-                  </span>
-                </li>
-                <li className="flex ">
-                  <FaCircle className=" shrink-0 text-secondary mt-1.5 text-xs mr-2" />
-                  <span>
-                    {" "}
-                    <b>Total Questions: </b> 100 (practical applications based){" "}
-                  </span>
+                  <span> Viva</span>
                 </li>
               </ul>
             </div>
@@ -222,22 +204,15 @@ const Tab1 = ({ zones }) => {
               <div className="w-full bg-white border border-gray-300 px-4 py-4 inline-block  text-gray-700 text-center space-y-1">
                 <div className="flex items-start  text-left">
                   <FaTrophy className="shrink-0 text-secondary mt-1.5 text-xs mr-2" />
-                  <span>
-                    {" "}
-                    <b>Cash Prize</b> for the Winner (TBA){" "}
-                  </span>
+                  <span> Winners receive cash prize (TBA)</span>
                 </div>
                 <div className="flex items-start  text-left">
                   <FaTrophy className="shrink-0 text-secondary mt-1.5 text-xs mr-2" />
-                  <b> National recognition certificate</b>
+                  National recognition certificate
                 </div>
                 <div className="flex items-start  text-left">
                   <FaTrophy className="shrink-0 text-secondary mt-1.5 text-xs mr-2" />
-                  <span>
-                    {" "}
-                    <b>Internship opportunities</b> with aviation industry
-                    leaders{" "}
-                  </span>
+                  <span> Aviation industry internship opportunities</span>
                 </div>
               </div>
             </div>

@@ -26,15 +26,9 @@ export default function About() {
           viewport={{ once: true }}
           transition={{ delay: 0.1, duration: 0.6 }}
         >
-          The <b> National Aviation Olympiad (NAO)</b> is India’s first
-          dedicated Olympiad designed to inspire and connect students with the
-          exciting world of aviation. Aligned with the vision of <b>NEP 2020</b>
-          , it aims to build{" "}
-          <b>
-            critical thinking, logical reasoning, and problem-solving skills
-          </b>{" "}
-          among students while introducing them to aviation and aerospace
-          opportunities.
+          NAO is organized by CSO aimed at spreading awareness particularly
+          about the aviation industry to prepare next generation of future –
+          ready workfare for aviation…… can add more text on the ground.
         </motion.p>
       </div>
 
@@ -52,28 +46,28 @@ export default function About() {
             Our Mission
           </h3>
           <p className="text-gray-700 text-lg mb-6">
-            The mission of the National Aviation Olympiad is to empower students
-            of Classes 8–12 with a structured, syllabus-aligned competition that
-            enhances critical thinking, logical reasoning, and awareness of
-            aviation and aerospace. Through multi-level tests, rewards, and
-            national recognition, the Olympiad strives to nurture talent,
-            support schools, and create a future-ready community of young
-            learners in line with NEP 2020.
+            To create a comprehensive platform that nurtures aviation knowledge,
+            promotes, STEM education and identifies talented young minds who can
+            contribute to India’s growing aviation sector. We aim to bridge the
+            gap between therotical knowledge and practical aviation
+            applications.
           </p>
           <ul className="space-y-4 text-gray-700 text-lg">
             <li className="flex  gap-2">
               <FaStar className="text-secondary shrink-0 mt-1.5" />
-              Providing equal opportunities through online & offline platforms
+              Promoting aviation education across all Indian state and UTs.
             </li>
             <li className="flex  gap-2">
               <FaStar className="text-secondary shrink-0 mt-1.5" />
-              Recognizing and rewarding talent with scholarships, prizes, and
-              certifications{" "}
+              Encouraging STEM learning throughaviation concepts.
             </li>
             <li className="flex  gap-2">
               <FaStar className="text-secondary shrink-0 mt-1.5" />
-              Building a nationwide community of aspiring aviators and
-              innovators
+              Building a foundation for aviation careers.
+            </li>
+            <li className="flex  gap-2">
+              <FaStar className="text-secondary shrink-0 mt-1.5" />
+              Introduce one 100+ aviation and aerospace careers.{" "}
             </li>
           </ul>
         </motion.div>
@@ -120,26 +114,23 @@ export default function About() {
             Our Vision
           </h3>
           <p className="text-gray-700 text-lg mb-6">
-            The vision of the National Aviation Olympiad is to establish itself
-            as the leading educational platform that inspires students of
-            Classes 8–12 to explore aviation and aerospace, while building
-            future-ready skills like innovation, logical reasoning, and
-            problem-solving. By nurturing curiosity and excellence, the Olympiad
-            aims to shape tomorrow’s leaders in aviation, contributing to
-            India’s growth in science, technology, and industry.
+            To establish the National Aviation Olympiad as the premier
+            educational competition in India that shapes young aviation
+            enthusiasts into knowledgeable professionals, contributing to the
+            nation’s aviation industry growth and technological advancement.
           </p>
           <ul className="space-y-4 text-gray-700 text-lg">
             <li className="flex  gap-2">
               <FaStar className="text-secondary shrink-0 mt-1.5" />
-              Creating national benchmarks in aviation-based learning{" "}
+              Fostering innovation and critical thinking{" "}
             </li>
             <li className="flex  gap-2">
               <FaStar className="text-secondary shrink-0 mt-1.5" />
-              Inspiring innovation, curiosity, and critical thinking
+              Supporting India’s aviation industry development{" "}
             </li>
             <li className="flex gap-2">
               <FaStar className="text-secondary shrink-0 mt-1.5" />
-              Shaping future professionals for India’s aviation growth
+              Reach students in Tier-2,3 & rural areas{" "}
             </li>
           </ul>
         </motion.div>

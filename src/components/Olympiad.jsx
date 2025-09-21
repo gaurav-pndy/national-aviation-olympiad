@@ -53,11 +53,11 @@ export default function Olympiad() {
           viewport={{ once: true }}
           transition={{ delay: 0.1, duration: 0.6 }}
         >
-          The National Aviation Olympiad is a premier competition crafted for
-          students of Classes 8–12 across India. Conducted in three progressive
-          stages, it assesses students’ knowledge of aviation concepts,
-          mathematics, physics, and general awareness, offering a structured
-          platform to showcase talent and inspire future aviators.
+          The National Aviation Olympiad is exclusively designed for students of
+          Grades 8-12, across India. This comprehensive three stage competition
+          evaluates students’ understanding of aviation principles and STEM
+          general aviation knowledge through a structured and progressive
+          examination system.
         </motion.p>
         {/* Tabs */}
         <div className="flex  gap-6 mt-12 text-gray-500 border-b border-gray-200 ">

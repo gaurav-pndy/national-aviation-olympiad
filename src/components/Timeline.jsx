@@ -10,70 +10,70 @@ import { FaDoorOpen, FaListCheck } from "react-icons/fa6";
 import { RiNumber1, RiNumber2, RiNumber3 } from "react-icons/ri";
 
 const timeline = [
-  // {
-  //   title: "Registration Opens",
-  //   desc: "Schools and students can begin the registration process",
-  //   date: "September 1, 2025",
-  //   side: "left",
-  //   icon: <FaDoorOpen className="text-white" />,
-  //   color: "white",
-  // },
-  // {
-  //   title: "Registration Deadline",
-  //   desc: "Final date for school and student registrations",
-  //   date: "December 15, 2025",
-  //   side: "right",
-  //   icon: <FaUserCheck className="text-white" />,
-  //   color: "white",
-  // },
   {
-    title: "1st Week of August 2026 – Phase 1 (School Level)",
-    desc: "Initial round conducted within schools.",
+    title: "Registration Opens",
+    desc: "Schools and students can begin the registration process",
+    date: "September 1, 2025",
+    side: "left",
+    icon: <FaDoorOpen className="text-white" />,
+    color: "white",
+  },
+  {
+    title: "Registration Deadline",
+    desc: "Final date for school and student registrations",
+    date: "December 15, 2025",
+    side: "right",
+    icon: <FaUserCheck className="text-white" />,
+    color: "white",
+  },
+  {
+    title: "Stage 1: School Level",
+    desc: "Examination conducted at registered schools nationwide",
     date: "January 15–31, 2026",
     side: "left",
     icon: <RiNumber1 className="text-white" />,
     color: "white",
   },
-  // {
-  //   title: "Stage 1 Results",
-  //   desc: "Announcement of zonal qualifiers from each school",
-  //   date: "February 15, 2026",
-  //   side: "right",
-  //   icon: <FaListCheck className="text-white" />,
-  //   color: "white",
-  // },
   {
-    title: "3rd Week of October 2026 – Phase 2 (Zonal/State Level)",
-    desc: "Regional-level competition across states/zones.",
-    date: "April 5–20, 2026",
+    title: "Stage 1 Results",
+    desc: "Announcement of zonal qualifiers from each school",
+    date: "February 15, 2026",
     side: "right",
+    icon: <FaListCheck className="text-white" />,
+    color: "white",
+  },
+  {
+    title: "Zonal Level",
+    desc: "Regional examinations across four zones of India",
+    date: "April 5–20, 2026",
+    side: "left",
     icon: <RiNumber2 className="text-white" />,
     color: "white",
   },
-  // {
-  //   title: "Stage 2 Results",
-  //   desc: "Selection of 140 national finalists",
-  //   date: "May 1, 2026",
-  //   side: "right",
-  //   icon: <FaMedal className="text-white" />,
-  //   color: "white",
-  // },
   {
-    title: "7th December 2026 – Phase 3 (National Level)",
-    desc: "Final round in New Delhi with interviews and team-based tasks",
+    title: "Stage 2 Results",
+    desc: "Selection of 140 national finalists",
+    date: "May 1, 2026",
+    side: "right",
+    icon: <FaMedal className="text-white" />,
+    color: "white",
+  },
+  {
+    title: "Stage 3: National Level",
+    desc: "Grand finale in New Delhi with all national qualifiers",
     date: "June 15, 2026",
     side: "left",
     icon: <RiNumber3 className="text-white" />,
     color: "white",
   },
-  // {
-  //   title: "Awards Ceremony",
-  //   desc: "Recognition of winners and distribution of prizes",
-  //   date: "June 16, 2026",
-  //   side: "right",
-  //   icon: <FaTrophy className="text-black" />,
-  //   color: "black",
-  // },
+  {
+    title: "Awards Ceremony",
+    desc: "Recognition of winners and distribution of prizes",
+    date: "June 16, 2026",
+    side: "right",
+    icon: <FaTrophy className="text-black" />,
+    color: "black",
+  },
 ];
 
 export default function CompetitionTimeline() {
@@ -92,7 +92,7 @@ export default function CompetitionTimeline() {
         <p className="text-gray-700 max-w-3xl text-lg md:text-xl text-justify mx-auto">
           Complete schedule of the National Aviation Olympiad from registration
           to final awards ceremony, designed to provide adequate preparation
-          time for all participants.
+          time for all participants
         </p>
       </motion.div>
       <div className="relative max-w-6xl px-4 md:px-6 mx-auto flex flex-col">

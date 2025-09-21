@@ -22,9 +22,9 @@ export default function RegistrationProcess() {
           Registration Process
         </h2>
         <p className="text-gray-700 max-w-3xl text-lg md:text-xl text-justify mx-auto">
-          Simple and streamlined registration process for schools and individual
-          students to participate in India's premier aviation education
-          competition.
+          Simple and streamlined registration process for schools and
+          individuals students to participate in India’s premier aviation
+          education competition
         </p>
       </motion.div>
 
@@ -49,8 +49,8 @@ export default function RegistrationProcess() {
                   School Authorization
                 </div>
                 <div className="text-gray-700 ">
-                  Principal or authorized teacher registers the school as an
-                  examination center with official documentation.
+                  Principal or authorized teacher register the school as an
+                  Examination center with official documentation.
                 </div>
               </div>
             </div>
@@ -61,8 +61,8 @@ export default function RegistrationProcess() {
               <div>
                 <div className="text-lg text-primary">Student Enrollment</div>
                 <div className="text-gray-700 ">
-                  Schools enroll eligible students from Classes 8–12 with
-                  required documentation and consent forms.
+                  Schools enroll eligible students from Classes 8-12 with
+                  required Documentation and consent forms.
                 </div>
               </div>
             </div>
@@ -160,17 +160,17 @@ export default function RegistrationProcess() {
             <div className="flex flex-col items-center">
               <FaCalendarAlt className="text-primary text-2xl mb-2" />
               <div className="text-lg text-primary">Registration Deadline</div>
-              <div className="text-gray-700">December 15, 2025</div>
+              <div className="text-gray-700">July 2026</div>
             </div>
             <div className="flex flex-col items-center">
               <FaRupeeSign className="text-primary text-2xl mb-2" />
               <div className="text-lg text-primary">Registration Fee</div>
-              <div className="text-gray-700 ">₹500 per student</div>
+              <div className="text-gray-700 ">₹200</div>
             </div>
             <div className="flex flex-col items-center">
               <FaUsers className="text-primary text-2xl mb-2" />
               <div className="text-lg text-primary">Eligibility</div>
-              <div className="text-gray-700 ">Classes 8–12 students</div>
+              <div className="text-gray-700 ">Classes 8–12</div>
             </div>
           </div>
         </motion.div>
