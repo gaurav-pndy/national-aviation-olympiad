@@ -99,67 +99,12 @@ export default function Contact() {
       {/* Form + FAQ */}
       <div className="max-w-7xl px-4 md:px-6 mx-auto ">
         {/* Contact Form */}
-        <motion.form
-          className="bg-white border border-gray-300  p-6 space-y-5"
-          initial={{ opacity: 0, x: -30 }}
-          whileInView={{ opacity: 1, x: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.5 }}
-        >
-          <h4 className="text-primary text-2xl mb-4">Send us a Message</h4>
-          <div className="grid grid-cols-2 gap-4">
-            <div>
-              <label className="">First Name *</label>
-              <input
-                className="w-full border border-gray-300 px-3 py-2  mt-1"
-                required
-              />
-            </div>
-            <div>
-              <label className="">Last Name *</label>
-              <input
-                className="w-full border border-gray-300 px-3 py-2  mt-1"
-                required
-              />
-            </div>
-          </div>
-          <div>
-            <label className="">Email Address *</label>
-            <input
-              className="w-full border border-gray-300 px-3 py-2  mt-1"
-              type="email"
-              required
-            />
-          </div>
-          <div>
-            <label className="">Phone Number</label>
-            <input className="w-full border border-gray-300 px-3 py-2  mt-1" />
-          </div>
-          <div>
-            <label className="">Subject *</label>
-            <select
-              className="w-full border border-gray-300 px-3 py-2  mt-1"
-              required
-            >
-              <option>Select a subject</option>
-              <option>Registration Query</option>
-              <option>Exam Process</option>
-              <option>Technical Support</option>
-              <option>Other</option>
-            </select>
-          </div>
-          <div>
-            <label className="">Message *</label>
-            <textarea
-              className="w-full border border-gray-300 px-3 py-2  mt-1 text-sm"
-              rows={4}
-              required
-            />
-          </div>
-          <button className="bg-primary text-white px-6 py-2.5 mt-2 flex items-center gap-2  hover:bg-blue-900 transition-all duration-300 cursor-pointer w-full justify-center">
-            Send Message <FaPaperPlane />
-          </button>
-        </motion.form>
+        <iframe
+          aria-label="Contact Us"
+          frameborder="0"
+          className="!max-w-7xl w-full h-[56rem] "
+          src="https://forms.zohopublic.in/aviakul/form/ContactUsFormNAOWebsite/formperma/uw90C5-NF8r8_15plo7Zr2LqEp6tEKQtfz3FA0SPrGo"
+        ></iframe>
         {/* FAQ Section */}
         <motion.div
           className="bg-white border border-gray-300 rounded p-6 mt-10"
