@@ -80,13 +80,20 @@ export default function RegistrationProcess() {
               </div>
             </div>
           </div>
-          <motion.button
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.97 }}
-            className="bg-primary text-white  px-6 py-3 flex items-center justify-center gap-2 hover:bg-blue-900 transition-all duration-300 cursor-pointer mt-auto"
+          <a
+            href="https://zfrmz.in/nvuK30qA6ivVvwe2YfG7"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="w-full"
           >
-            Register School <FaSchool />
-          </motion.button>
+            <motion.button
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.97 }}
+              className="bg-primary text-white  px-6 py-3 flex items-center justify-center gap-2 hover:bg-blue-900 transition-all duration-300 cursor-pointer mt-auto w-full"
+            >
+              Register School <FaSchool />
+            </motion.button>
+          </a>
         </motion.div>
 
         <motion.div
@@ -145,13 +152,19 @@ export default function RegistrationProcess() {
               </div>
             </div>
           </div>
-          <motion.button
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.97 }}
-            className="bg-secondary text-primary  px-6 py-3 flex items-center justify-center gap-2 hover:bg-yellow-400 transition-all duration-300 cursor-pointer mt-auto"
+          <a
+            className="w-full"
+            href="https://zfrmz.in/aaJiXotostGRiyitai9U"
+            target="_blank"
           >
-            Register as an Expert <GrUserExpert />
-          </motion.button>
+            <motion.button
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.97 }}
+              className="bg-secondary text-primary  px-6 py-3 flex items-center justify-center w-full gap-2 hover:bg-yellow-400 transition-all duration-300 cursor-pointer mt-auto"
+            >
+              Register as an Expert <GrUserExpert />
+            </motion.button>
+          </a>
         </motion.div>
       </div>
     </section>

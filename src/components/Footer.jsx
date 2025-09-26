@@ -31,13 +31,19 @@ export default function Footer() {
   };
   return (
     <footer className="bg-primary text-white pt-10 pb-6 ">
-      <div className="max-w-7xl px-4 md:px-6 mx-auto grid grid-cols-2 xl:grid-cols-4 gap-10">
+      <div className="max-w-7xl px-4 md:px-6 mx-auto grid grid-cols-2 xl:grid-cols-[1.4fr_0.7fr_0.7fr_1.2fr] gap-10">
         {/* Brand & Socials */}
         <div className="col-span-2 md:col-span-1">
           <div className="flex  mb-2 gap-2">
-            <img src="/logo-light.png" alt="" className="h-16 md:h-20" />
+            <a
+              href="http://www.thecso.in"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src="/logo-light.png" alt="" className="h-16 md:h-20" />
+            </a>
           </div>
-          <div className="text-sm mb-4 text-justify">
+          <div className="text-sm max-w-xs mb-4 text-justify">
             National Aviation Olympiad is India’s premier aviation education
             awareness movement conceived and organized by the Centre for
             Scientific Outreach (CSO) to inspire the next generation of aviation
@@ -181,8 +187,8 @@ export default function Footer() {
           <div className="flex gap-2 text-sm mb-2">
             <FaMapMarkerAlt className="mt-1" />
             CSOE Research Foundation <br />
-            B-1, Third Floor, Greater Kailash Enclave – II, New Delhi – 110048,
-            India.
+            B-1, Third Floor, Greater Kailash Enclave – II, <br /> New Delhi –
+            110048, India.
           </div>
         </div>
       </div>

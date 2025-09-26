@@ -76,7 +76,7 @@ const timeline = [
   },
 ];
 
-export default function CompetitionTimeline() {
+export default function Timeline() {
   return (
     <section className="py-16 bg-[#f9fafb] ">
       <motion.div

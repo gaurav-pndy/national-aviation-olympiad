@@ -1,34 +1,21 @@
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./App.css";
-import About from "./components/About";
-import Contact from "./components/Contact";
-import ExpertCommittee from "./components/ExpertCommittee";
-import Footer from "./components/Footer";
-import HeroSection from "./components/HeroSection";
-import Navbar from "./components/Navbar";
-import Olympiad from "./components/Olympiad";
-import OlympiadInstructions from "./components/OlympiadInstructions";
-import PreparationResources from "./components/PreparationResources";
-import RegistrationProcess from "./components/RegistrationProcess";
-import SchoolInstructions from "./components/SchoolInstructions";
-import Timeline from "./components/Timeline";
+import AppLayout from "./layout/AppLayout";
+import Home from "./pages/Home";
 
 function App() {
-  return (
-    <>
-      <Navbar />
-      <HeroSection />
-      <About />
-      <ExpertCommittee />
-      <Olympiad />
-      <OlympiadInstructions />
-      <SchoolInstructions />
-      <PreparationResources />
-      <RegistrationProcess />
-      <Timeline />
-      <Contact />
-      <Footer />
-    </>
-  );
+  const router = createBrowserRouter([
+    {
+      element: <AppLayout />,
+      children: [
+        {
+          path: "/",
+          element: <Home />,
+        },
+      ],
+    },
+  ]);
+  return <RouterProvider router={router} />;
 }
 
 export default App;

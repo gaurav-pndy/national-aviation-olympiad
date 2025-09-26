@@ -3,6 +3,23 @@ import { FaArrowRightLong, FaUserPlus } from "react-icons/fa6";
 import { motion } from "framer-motion";
 
 export default function HeroSection() {
+  const handleScroll = (e, href) => {
+    e.preventDefault();
+    const targetId = href.substring(1);
+    const targetElement = document.getElementById(targetId);
+    const offset = 80; // change this value for desired margin from top
+    if (targetElement) {
+      const elementPosition =
+        targetElement.getBoundingClientRect().top + window.pageYOffset;
+      window.scrollTo({
+        top: elementPosition - offset,
+        behavior: "smooth",
+      });
+    } else if (href === "#") {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+  };
+
   return (
     <section className="bg-white pt-28 xl:min-h-screen flex flex-col justify-center">
       <div className="container max-w-7xl mx-auto flex flex-col lg:flex-row gap-10 items-center justify-between px-4 md:px-6">
@@ -28,6 +45,7 @@ export default function HeroSection() {
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
+              onClick={(e) => handleScroll(e, "#about")}
               className="bg-primary text-white font-medium px-6 py-2.5 cursor-pointer  hover:bg-blue-800 transition-all duration-300 flex gap-2 items-center"
             >
               Learn More <FaArrowRightLong />
@@ -35,6 +53,7 @@ export default function HeroSection() {
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
+              onClick={(e) => handleScroll(e, "#registration")}
               className="bg-secondary text-primary font-medium px-6 py-2.5 cursor-pointer  hover:bg-yellow-200 transition-all duration-300 flex gap-2 items-center"
             >
               Register Now <FaUserPlus />
