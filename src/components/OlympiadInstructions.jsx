@@ -3,7 +3,7 @@ import { FaCircle } from "react-icons/fa";
 
 export default function OlympiadInstructions() {
   return (
-    <section className="py-16 px-4 md:px-6  max-w-7xl mx-auto ">
+    <section className="py-16 px-4 md:px-6  max-w-7xl mx-auto grid md:grid-cols-2 gap-6">
       <motion.div
         initial={{ y: 30, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
@@ -47,7 +47,7 @@ export default function OlympiadInstructions() {
         </ul>
       </motion.div>
 
-      {/* <motion.div
+      <motion.div
         initial={{ y: 30, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
         viewport={{ once: true }}
@@ -58,40 +58,34 @@ export default function OlympiadInstructions() {
         </h2>
         <div className="space-y-4   text-gray-700">
           <div className="bg-[#f9fafb] border border-gray-300 p-4">
-            <h3 className="text-primary text-lg mb-2">
-              Level I – School Level:
-            </h3>
+            <h3 className="text-primary text-lg ">Level I – School Level:</h3>
             <p>
-              Your Olympiad journey begins at your own school. You’ll attempt
-              the first test, and if you’re among the <b>top 3 performers</b>,
-              you’ll move on to the next stage.
+              Conducted within each school; Top 10 Students from Group 1
+              (Classes 8, 9 & 10) and Top 5 Students from Group 2 (Classes 11 &
+              12) qualify for the State Level
             </p>
           </div>
           <div className="bg-[#f9fafb] border border-gray-300 p-4">
-            <h3 className="text-primary text-lg mb-2">
+            <h3 className="text-primary text-lg ">
               Level II – Zonal/State Level:
             </h3>
             <p>
-              Here, you’ll compete with the <b>best students from your state</b>
-              (Classes 8–12). The challenge gets tougher, and if you’re among
-              the <b>top 5 winners of your state</b>, you’ll earn a place in the
-              National Finals.
+              Top students from each state (Classes 8-12) compete; 5 winners per
+              State/UT qualify for the National Level
             </p>
           </div>
           <div className="bg-[#f9fafb] border border-gray-300 p-4">
-            <h3 className="text-primary text-lg mb-2">
+            <h3 className="text-primary text-lg ">
               Level III – National Level:
             </h3>
             <p>
-              The ultimate stage takes place in <b>New Delhi.</b> All national
-              qualifiers come together for the final round, which includes a
-              <b>Personal Interview (PI) and team-based tasks.</b> The winners
-              here will be crowned the{" "}
-              <b>National Aviation Olympiad Champions.</b>.
+              The final round will be held in New Delhi, with personal
+              interviews (PI) and team-based tasks to determine the National
+              Aviation Olympiad champion.
             </p>
           </div>
         </div>
-      </motion.div> */}
+      </motion.div>
     </section>
   );
 }

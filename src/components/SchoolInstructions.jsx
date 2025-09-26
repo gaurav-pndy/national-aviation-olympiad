@@ -70,36 +70,13 @@ export default function SchoolInstructions() {
               LMS.
             </span>
           </li>
-          <li className="flex ">
+          {/* <li className="flex ">
             <FaCircle className=" shrink-0 text-secondary mt-2 text-xs mr-2" />
             <span>
               {" "}
               The Olympiad will be held in <b>three levels</b>:
             </span>
-          </li>
-        </ul>
-        <ul className="mt-2 grid md:grid-cols-3 gap-4 list-inside  text-gray-700 space-y-4 pl-6">
-          <li className="bg-[#f9fafb] border border-gray-300 p-4">
-            <h3 className="text-primary text-lg ">Level I – School Level:</h3>{" "}
-            Conducted within each school; Top 10 Students from Group 1 (Classes
-            8, 9 & 10) and Top 5 Students from Group 2 (Classes 11 & 12) qualify
-            for the State Level
-          </li>
-          <li className="bg-[#f9fafb] border border-gray-300 p-4">
-            <h3 className="text-primary text-lg ">
-              Level II – Zonal/State Level:
-            </h3>{" "}
-            Top students from each state (Classes 8-12) compete; 5 winners per
-            State/UT qualify for the National Level
-          </li>
-          <li className="bg-[#f9fafb] border border-gray-300 p-4">
-            <h3 className="text-primary text-lg ">
-              Level III – National Level:
-            </h3>{" "}
-            The final round will be held in New Delhi, with personal interviews
-            (PI) and team-based tasks to determine the National Aviation
-            Olympiad champion.
-          </li>
+          </li> */}
         </ul>
       </motion.div>
     </section>
