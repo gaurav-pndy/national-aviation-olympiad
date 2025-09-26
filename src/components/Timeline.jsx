@@ -52,7 +52,7 @@ const timeline = [
   },
   {
     title: "Stage 2 Results",
-    desc: "Selection of 140 national finalists",
+    desc: "Selection of 180 National Finalists",
     date: "May 1, 2026",
     side: "right",
     icon: <FaMedal className="text-white" />,
@@ -60,7 +60,7 @@ const timeline = [
   },
   {
     title: "Stage 3: National Level",
-    desc: "Grand finale in New Delhi with all national qualifiers",
+    desc: "Grand finale in New Delhi among all the National Qualifiers",
     date: "June 15, 2026",
     side: "left",
     icon: <RiNumber3 className="text-white" />,

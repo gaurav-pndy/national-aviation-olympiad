@@ -4,10 +4,11 @@ import {
   FaMapMarkerAlt,
   FaClock,
   FaPaperPlane,
+  FaPhoneAlt,
 } from "react-icons/fa";
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { IoIosArrowUp } from "react-icons/io";
+import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
 
 const faqs = [
   {
@@ -62,27 +63,26 @@ export default function Contact() {
           <FaEnvelope className="text-primary text-3xl mb-2" />
           <div className="text-primary text-lg mb-1">Email</div>
           <div className="text-sm  text-gray-700 text-center break-all">
-            info@nationalaviationolympiad.com
+            nao@thecso.in
             <br />
-            support@nationalaviationolympiad.com
+            hello@thecso.in
           </div>
         </div>
         <div className="bg-[#f9fafb] border border-gray-300  p-5 flex flex-col items-center">
-          <FaPhone className="text-primary text-3xl mb-2" />
+          <FaPhoneAlt className="text-primary text-3xl mb-2" />
           <div className="text-primary text-lg mb-1">Phone</div>
           <div className="text-sm  text-gray-700 text-center break-all">
-            +91-11-2345-6789
-            <br />
-            +91-11-2345-6790
+            +91 9211229927 <br />
+            +91 9773987836
           </div>
         </div>
         <div className="bg-[#f9fafb] border border-gray-300  p-5 flex flex-col items-center">
           <FaMapMarkerAlt className="text-primary text-3xl mb-2" />
           <div className="text-primary text-lg mb-1">Address</div>
           <div className="text-sm text-gray-700 text-center">
-            National Aviation Olympiad Headquarters
-            <br />
-            New Delhi, India 110001
+            CSOE Research Foundation <br />
+            B-1, Third Floor, Greater Kailash Enclave – II, New Delhi – 110048,
+            India.
           </div>
         </div>
         <div className="bg-[#f9fafb] border border-gray-300  p-5 flex flex-col items-center">
@@ -97,7 +97,7 @@ export default function Contact() {
       </motion.div>
 
       {/* Form + FAQ */}
-      <div className="max-w-7xl px-4 md:px-6 mx-auto grid md:grid-cols-2 gap-6">
+      <div className="max-w-7xl px-4 md:px-6 mx-auto ">
         {/* Contact Form */}
         <motion.form
           className="bg-white border border-gray-300  p-6 space-y-5"
@@ -162,7 +162,7 @@ export default function Contact() {
         </motion.form>
         {/* FAQ Section */}
         <motion.div
-          className="bg-white border border-gray-300 rounded p-6"
+          className="bg-white border border-gray-300 rounded p-6 mt-10"
           initial={{ opacity: 0, x: 30 }}
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true }}
@@ -185,7 +185,7 @@ export default function Contact() {
                       i === openFaq ? "rotate-180" : ""
                     }`}
                   >
-                    <IoIosArrowUp />
+                    <IoIosArrowDown />
                   </span>
                 </button>
                 {i === openFaq && (

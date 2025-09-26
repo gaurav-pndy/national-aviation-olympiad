@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 const Tab2 = () => {
   return (
     <div className="bg-[#f9fafb] rounded-lg p-6 max-w-7xl mx-auto px-4 md:px-6 flex flex-col lg:flex-row gap-10">
-      <motion.div
+      {/* <motion.div
         className="lg:w-1/2"
         initial={{ y: 30, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
@@ -72,7 +72,9 @@ const Tab2 = () => {
             Intensive revision with mock tests and performance optimization.
           </p>
         </div>
-      </motion.div>
+      </motion.div> */}
+
+      <div className="text-lg font-semibold text-center w-full">TBA</div>
     </div>
   );
 };

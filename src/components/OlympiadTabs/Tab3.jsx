@@ -75,7 +75,7 @@ const Tab3 = () => {
   ];
   return (
     <div className="bg-[#f9fafb] rounded-lg p-6 max-w-7xl mx-auto px-4 md:px-6  space-y-8">
-      <motion.div
+      {/* <motion.div
         initial={{ y: 30, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
         viewport={{ once: true }}
@@ -146,7 +146,9 @@ const Tab3 = () => {
         Each subject includes comprehensive coverage with practical applications
         and real-world examples, ensuring both theoretical knowledge and applied
         understanding.
-      </motion.p>
+      </motion.p> */}
+
+      <div className="text-lg font-semibold text-center">TBA</div>
     </div>
   );
 };

@@ -167,53 +167,10 @@ export default function PreparationResources() {
         <div className="text-primary text-center text-xl mb-6">
           Class-wise Syllabus Overview
         </div>
-        <div className="grid grid-cols-2 md:grid-cols-5 gap-5 text-center">
+        <div className="text-center text-lg font-semibold">TBA</div>
+        {/* <div className="grid grid-cols-2 md:grid-cols-5 gap-5 text-center">
+         
           <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ delay: 0.25, duration: 0.4 }}
-          >
-            <div className="text-primary text-lg mb-1">Class 8</div>
-            <div className="text-xl ">TBA</div>
-          </motion.div>
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ delay: 0.3, duration: 0.4 }}
-          >
-            <div className="text-primary text-lg mb-1">Class 9</div>
-            <div className="text-xl ">TBA</div>
-          </motion.div>
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ delay: 0.35, duration: 0.4 }}
-          >
-            <div className="text-primary text-lg mb-1">Class 10</div>
-            <div className="text-xl">TBA</div>
-          </motion.div>
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ delay: 0.4, duration: 0.4 }}
-          >
-            <div className="text-primary text-lg mb-1">Class 11</div>
-            <div className="text-xl ">TBA</div>
-          </motion.div>
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ delay: 0.45, duration: 0.4 }}
-          >
-            <div className="text-primary text-lg mb-1">Class 12</div>
-            <div className="text-xl">TBA</div>
-          </motion.div>
-          {/* <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -297,8 +254,8 @@ export default function PreparationResources() {
               <br />
               Career Pathways
             </div>
-          </motion.div> */}
-        </div>
+          </motion.div>
+        </div> */}
       </motion.div>
     </section>
   );

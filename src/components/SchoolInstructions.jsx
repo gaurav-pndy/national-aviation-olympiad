@@ -30,8 +30,29 @@ export default function SchoolInstructions() {
             <FaCircle className=" shrink-0 text-secondary mt-2 text-xs mr-2" />
             <span>
               {" "}
-              The <b>exam fee is ₹300 per student</b>.
+              The <b>examination fee is ₹200 per student</b>.
             </span>
+          </li>
+          <li className="flex flex-col">
+            <p className="flex ">
+              <FaCircle className=" shrink-0 text-secondary mt-2 text-xs mr-2" />
+              <span>
+                {" "}
+                <b>Fee Structure:</b>.
+              </span>
+            </p>
+            <ul className="mt-2 grid md:grid-cols-2 gap-4 list-inside  text-gray-700  pl-6">
+              <li className="bg-[#f9fafb] border border-gray-300 p-4">
+                <h3 className="text-primary text-lg ">Till 31 March 2026:</h3>{" "}
+                Rs. 200/ - per Male student <br />
+                Rs. 160/ - per Female student
+              </li>
+              <li className="bg-[#f9fafb] border border-gray-300 p-4">
+                <h3 className="text-primary text-lg ">From 01 April 2026:</h3>{" "}
+                Rs. 250/ - per Male student <br />
+                Rs. 200/ - per Female student
+              </li>
+            </ul>
           </li>
           <li className="flex ">
             <FaCircle className=" shrink-0 text-secondary mt-2 text-xs mr-2" />
@@ -60,22 +81,24 @@ export default function SchoolInstructions() {
         <ul className="mt-2 grid md:grid-cols-3 gap-4 list-inside  text-gray-700 space-y-4 pl-6">
           <li className="bg-[#f9fafb] border border-gray-300 p-4">
             <h3 className="text-primary text-lg ">Level I – School Level:</h3>{" "}
-            Conducted within each school; top 3 students per school qualify for
-            the next round.
+            Conducted within each school; Top 10 Students from Group 1 (Classes
+            8, 9 & 10) and Top 5 Students from Group 2 (Classes 11 & 12) qualify
+            for the State Level
           </li>
           <li className="bg-[#f9fafb] border border-gray-300 p-4">
             <h3 className="text-primary text-lg ">
               Level II – Zonal/State Level:
             </h3>{" "}
-            Top students from each state (Classes 8–12) compete; 5 winners per
-            state qualify nationally.
+            Top students from each state (Classes 8-12) compete; 5 winners per
+            State/UT qualify for the National Level
           </li>
           <li className="bg-[#f9fafb] border border-gray-300 p-4">
             <h3 className="text-primary text-lg ">
               Level III – National Level:
             </h3>{" "}
-            Final round in New Delhi with PI (Personal Interview) and team-based
-            tasks to determine winners.
+            The final round will be held in New Delhi, with personal interviews
+            (PI) and team-based tasks to determine the National Aviation
+            Olympiad champion.
           </li>
         </ul>
       </motion.div>

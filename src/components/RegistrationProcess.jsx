@@ -6,6 +6,7 @@ import {
   FaUsers,
 } from "react-icons/fa";
 import { motion } from "framer-motion";
+import { GrUserExpert } from "react-icons/gr";
 
 export default function RegistrationProcess() {
   return (
@@ -142,6 +143,70 @@ export default function RegistrationProcess() {
             className="bg-secondary text-primary  px-6 py-3 flex items-center justify-center gap-2 hover:bg-yellow-400 transition-all duration-300 cursor-pointer mt-auto"
           >
             Register Student <FaUserGraduate />
+          </motion.button>
+        </motion.div>
+        <motion.div
+          className="bg-[#f9fafb]  border border-gray-300 p-6 flex flex-col"
+          initial={{ opacity: 0, x: 40 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5 }}
+        >
+          <div className=" text-xl mb-5 text-primary">Expert Registration</div>
+          <div className="space-y-5 mb-7">
+            <div className="flex gap-3">
+              <span className="bg-primary text-white  w-8 h-8 shrink-0 flex items-center justify-center  text-base">
+                1
+              </span>
+              <div>
+                <div className="text-lg text-primary">
+                  Eligibility & Profile Submission
+                </div>
+                <div className="text-gray-700 ">
+                  Professionals from academia, industry, or policy/regulatory
+                  sectors can apply. <br />
+                  Submit a brief profile highlighting expertise in aviation,
+                  aerospace, STEM education, or policy.
+                </div>
+              </div>
+            </div>
+            <div className="flex gap-3">
+              <span className="bg-primary text-white  w-8 h-8 shrink-0 flex items-center justify-center  text-base">
+                2
+              </span>
+              <div>
+                <div className="text-lg text-primary">Review & Invitation</div>
+                <div className="text-gray-700 ">
+                  Applications will be carefully reviewed by the NAO team.{" "}
+                  <br />
+                  Selected experts will be warmly invited to participate in the
+                  committee.
+                </div>
+              </div>
+            </div>
+            <div className="flex gap-3">
+              <span className="bg-primary text-white  w-8 h-8 shrink-0 flex items-center justify-center  text-base">
+                3
+              </span>
+              <div>
+                <div className="text-lg text-primary">
+                  Committee Involvement
+                </div>
+                <div className="text-gray-700 ">
+                  Collaborate on curriculum planning, examination design, and
+                  evaluation guidelines. <br />
+                  Contribute ideas in planning discussions and review sessions
+                  to help make NAO a valuable experience for students.
+                </div>
+              </div>
+            </div>
+          </div>
+          <motion.button
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.97 }}
+            className="bg-secondary text-primary  px-6 py-3 flex items-center justify-center gap-2 hover:bg-yellow-400 transition-all duration-300 cursor-pointer mt-auto"
+          >
+            Register as an Expert <GrUserExpert />
           </motion.button>
         </motion.div>
 

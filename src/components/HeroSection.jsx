@@ -20,8 +20,9 @@ export default function HeroSection() {
             Ignite your minds, Elevate India’s skies
           </h1>
           <p className="text-lg md:text-xl text-gray-700 mb-8">
-            India’s 1st Aviation Olympiad/ Pan India/ Grades 8th – 12th / Aug
-            2026 – Dec 2026
+            1st Pan India Aviation Olympiad <br />
+            Classes 8th - 12th <br />
+            August 2026 - December 2026
           </p>
           <div className="flex gap-4 justify-center lg:justify-start">
             <motion.button
@@ -59,9 +60,13 @@ export default function HeroSection() {
       {/* Statistics */}
       <div className="bg-[#f9fafb]  mt-12 py-12">
         <div className="container max-w-7xl w-full mx-auto grid grid-cols-2 md:grid-cols-4 justify-center gap-6 px-4 md:px-6">
-          <StatBox number="28/8" label="States Participating" delay={0} />
-          <StatBox number="1,00,000+" label="Classes Covered" delay={0.1} />
-          <StatBox number="3" label="Competition Stages" delay={0.2} />
+          <StatBox number="28/8" label="States & UTs Participating" delay={0} />
+          <StatBox
+            number="1,00,000+"
+            label="Students Participating"
+            delay={0.1}
+          />
+          <StatBox number="3" label="Competition Phases" delay={0.2} />
           <StatBox number="180" label="National Qualifiers" delay={0.3} />
         </div>
       </div>

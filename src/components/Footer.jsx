@@ -34,16 +34,14 @@ export default function Footer() {
       <div className="max-w-7xl px-4 md:px-6 mx-auto grid grid-cols-2 xl:grid-cols-4 gap-10">
         {/* Brand & Socials */}
         <div className="col-span-2 md:col-span-1">
-          <div className="flex items-center mb-4 gap-2">
-            <IoAirplane className="text-2xl" />
-            <div className="font-semibold text-lg">
-              National Aviation Olympiad
-            </div>
+          <div className="flex  mb-2 gap-2">
+            <img src="/logo-light.png" alt="" className="h-16" />
           </div>
           <div className="text-sm mb-4 text-justify">
-            India's premier aviation education competition inspiring the next
-            generation of aviation professionals through comprehensive knowledge
-            assessment and skill development.
+            National Aviation Olympiad is India’s premier aviation education
+            awareness movement conceived and organized by the Centre for
+            Scientific Outreach (CSO) to inspire the next generation of aviation
+            professionals.
           </div>
           <div className="flex gap-5 mt-2 text-lg">
             <a href="#" aria-label="Facebook">
@@ -170,19 +168,21 @@ export default function Footer() {
         <div className="col-span-2 md:col-span-1">
           <div className="font-semibold mb-2">Contact Info</div>
           <div className="flex  gap-2 text-sm mb-4">
-            <FaEnvelope className="mt-1" /> info@nationalaviationolympiad.com{" "}
-            <br /> support@nationalaviationolympiad.com
+            <FaEnvelope className="mt-1" />
+            hello@thecso.in <br />
+            nao@thecso.in
           </div>
 
           <div className="flex gap-2 text-sm mb-4">
-            <FaPhoneAlt className="mt-1" /> +91-11-2345-6789 <br />{" "}
-            +91-11-2345-6790
+            <FaPhoneAlt className="mt-1" /> +91- 9211229927 <br />
+            +91- 9773987836
           </div>
 
           <div className="flex gap-2 text-sm mb-2">
             <FaMapMarkerAlt className="mt-1" />
-            National Aviation Olympiad Headquarters <br />
-            New Delhi, India 110001
+            CSOE Research Foundation <br />
+            B-1, Third Floor, Greater Kailash Enclave – II, New Delhi – 110048,
+            India.
           </div>
         </div>
       </div>

@@ -26,9 +26,13 @@ export default function About() {
           viewport={{ once: true }}
           transition={{ delay: 0.1, duration: 0.6 }}
         >
-          NAO is organized by CSO aimed at spreading awareness particularly
-          about the aviation industry to prepare next generation of future –
-          ready workfare for aviation…… can add more text on the ground.
+          The <b>National Aviation Olympiad (NAO),</b> organized by the Centre
+          of
+          <b> Scientific Outreach (CSO),</b> aims to build awareness about
+          aviation and aerospace while preparing students for a future-ready
+          workforce. The Olympiad will also open doors for young people to
+          explore new technologies and career opportunities in the aviation
+          sector.
         </motion.p>
       </div>
 

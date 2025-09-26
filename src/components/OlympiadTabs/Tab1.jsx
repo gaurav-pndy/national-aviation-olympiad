@@ -31,7 +31,7 @@ const Tab1 = ({ zones }) => {
               <ul className="text-gray-700   space-y-1">
                 <li className="flex items-center">
                   <FaCircle className=" shrink-0 text-secondary text-xs mr-2" />{" "}
-                  Conducted at individual schools across India
+                  Exam to be conducted at individual schools across India{" "}
                 </li>
                 <li className="flex ">
                   <FaCircle className=" shrink-0 text-secondary mt-1.5 text-xs mr-2" />{" "}
@@ -48,7 +48,9 @@ const Tab1 = ({ zones }) => {
                 </li>
                 <li className="flex ">
                   <FaCircle className=" shrink-0 text-secondary mt-1.5 text-xs mr-2" />{" "}
-                  <span>60 Questions</span>
+                  <span>
+                    <strong> No. of Questions: </strong> 60{" "}
+                  </span>
                 </li>
               </ul>
             </div>
@@ -57,11 +59,26 @@ const Tab1 = ({ zones }) => {
                 Qualification Criteria
               </div>
               <div className=" w-full bg-white border border-gray-300 px-4 py-4 inline-block  text-2xl text-primary text-center">
-                Top 3
+                Top 15
                 <div className="text-sm text-gray-600 font-normal">
-                  students per school per grade qualify for zonal level
+                  Students per school qualify for Zonal Level. (Group 1 – 10 |
+                  Group 2 – 5){" "}
                 </div>
               </div>
+            </div>
+          </div>
+          <div className="mb-3 text-primary text-lg mt-6">Group Division</div>
+          <div className="text-xs text-gray-600 mt-4 grid grid-cols-2  gap-4">
+            <div className="border text-center border-gray-300 p-4 bg-white">
+              <span className="mb-2 text-lg text-primary">Group 1</span>
+
+              <p>CLasses 8, 9 & 10</p>
+            </div>
+
+            <div className="border text-center border-gray-300 p-4 bg-white">
+              <span className="mb-2 text-lg text-primary">Group 2</span>
+
+              <p>CLasses 11 & 12</p>
             </div>
           </div>
         </div>
@@ -95,7 +112,8 @@ const Tab1 = ({ zones }) => {
                   <FaCircle className=" shrink-0 text-secondary mt-1.5 text-xs mr-2" />
                   <span>
                     {" "}
-                    Exam conducted in 4 zones : north, south, east, west
+                    Exam to be conducted in 4 zones:{" "}
+                    <b>North, South, East, West </b>{" "}
                   </span>
                 </li>
                 <li className="flex ">
@@ -111,7 +129,10 @@ const Tab1 = ({ zones }) => {
                 </li>
                 <li className="flex items-center">
                   <FaCircle className=" shrink-0 text-secondary text-xs mr-2" />
-                  <span>90 Questions</span>
+                  <span>
+                    {" "}
+                    <b> No. of Questions: </b> 90{" "}
+                  </span>
                 </li>
               </ul>
             </div>
@@ -122,16 +143,16 @@ const Tab1 = ({ zones }) => {
               <div className=" w-full bg-white border border-gray-300 px-4 py-4 inline-block  text-2xl text-primary text-center">
                 Top 5
                 <div className="text-sm mb-1 text-gray-600 font-normal">
-                  winners per state & UT (Classes 8-12)
+                  winners per state & UT
                 </div>
                 180
                 <div className="text-sm  text-gray-600 font-normal">
-                  students qualify nationally
+                  students qualify at National Level
                 </div>
               </div>
             </div>
           </div>
-          <div className="mb-3 text-primary text-lg mt-4">
+          <div className="mb-3 text-primary text-lg mt-6">
             Zone Distribution
           </div>
           <div className="text-xs text-gray-600 mt-4 grid grid-cols-2 md:grid-cols-4 gap-4">
@@ -177,12 +198,13 @@ const Tab1 = ({ zones }) => {
                   <FaCircle className=" shrink-0 text-secondary mt-1.5 text-xs mr-2" />
                   <span>
                     {" "}
-                    Conducted in New Delhi with all national qualifiers{" "}
+                    Exam will be conducted in New Delhi among all the National
+                    Qualifiers{" "}
                   </span>
                 </li>
                 <li className="flex ">
                   <FaCircle className=" shrink-0 text-secondary mt-1.5 text-xs mr-2" />
-                  <span> Comprehensive aviation knowledge assessment</span>
+                  <span> Comprehensive Aviation Knowledge Assessment</span>
                 </li>
                 <li className="flex ">
                   <FaCircle className=" shrink-0 text-secondary mt-1.5 text-xs mr-2" />
@@ -193,7 +215,10 @@ const Tab1 = ({ zones }) => {
                 </li>
                 <li className="flex ">
                   <FaCircle className=" shrink-0 text-secondary mt-1.5 text-xs mr-2" />
-                  <span> Viva</span>
+                  <span>
+                    {" "}
+                    <b>Mode of Examination:</b> Viva{" "}
+                  </span>
                 </li>
               </ul>
             </div>
@@ -208,11 +233,11 @@ const Tab1 = ({ zones }) => {
                 </div>
                 <div className="flex items-start  text-left">
                   <FaTrophy className="shrink-0 text-secondary mt-1.5 text-xs mr-2" />
-                  National recognition certificate
+                  National Recognition Certificate
                 </div>
                 <div className="flex items-start  text-left">
                   <FaTrophy className="shrink-0 text-secondary mt-1.5 text-xs mr-2" />
-                  <span> Aviation industry internship opportunities</span>
+                  <span> Internship Opportunities in Aviation Industry </span>
                 </div>
               </div>
             </div>

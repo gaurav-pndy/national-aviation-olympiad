@@ -4,8 +4,8 @@ import { motion } from "framer-motion";
 
 const Tab4 = () => {
   return (
-    <div className="bg-[#f9fafb] rounded-lg p-6 max-w-7xl mx-auto px-4 md:px-6  grid lg:grid-cols-2 gap-10">
-      <h3 className="lg:col-span-2 text-primary text-xl mb-3">
+    <div className="bg-[#f9fafb] rounded-lg p-6 max-w-7xl mx-auto px-4 md:px-6   gap-10">
+      {/* <h3 className="lg:col-span-2 text-primary text-xl mb-3">
         Question Bank & Practice Materials
       </h3>
       <motion.div
@@ -97,7 +97,9 @@ const Tab4 = () => {
             </button>
           </div>
         </div>
-      </motion.div>
+      </motion.div> */}
+
+      <div className="text-lg font-semibold text-center ">TBA</div>
     </div>
   );
 };
