@@ -3,7 +3,7 @@ import { FaCircle } from "react-icons/fa";
 
 export default function OlympiadInstructions() {
   return (
-    <section className="py-16 px-4 md:px-6  max-w-7xl mx-auto grid gap-8 md:grid-cols-2">
+    <section className="py-16 px-4 md:px-6  max-w-7xl mx-auto ">
       <motion.div
         initial={{ y: 30, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
@@ -47,7 +47,7 @@ export default function OlympiadInstructions() {
         </ul>
       </motion.div>
 
-      <motion.div
+      {/* <motion.div
         initial={{ y: 30, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
         viewport={{ once: true }}
@@ -91,7 +91,7 @@ export default function OlympiadInstructions() {
             </p>
           </div>
         </div>
-      </motion.div>
+      </motion.div> */}
     </section>
   );
 }

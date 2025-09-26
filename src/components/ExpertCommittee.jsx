@@ -75,21 +75,13 @@ export default function ExpertCommittee() {
           viewport={{ once: true }}
           transition={{ delay: 0.08, duration: 0.6 }}
         >
-          Our distinguished 100-member expert committee brings together 40%
-          academia, 30% industry, and 30% policy/regulatory leaders. With active
-          involvement of aviation policymakers and regulators, it ensures
-          alignment with national priorities and positions aviation as one
-          integrated ecosystem. Together, the committee shapes the future of
-          aviation education, research, and career pathways for the next
-          generation.
-          <br /> <br />
           <b>
             To express your interest in joining this committee, please complete
             the form below for consideration
           </b>
         </motion.p>
       </div>
-      <div className="max-w-7xl px-4 md:px-6 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      {/* <div className="max-w-7xl px-4 md:px-6 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {experts.map((e, idx) => (
           <motion.div
             key={e.name}
@@ -112,7 +104,8 @@ export default function ExpertCommittee() {
             </div>
           </motion.div>
         ))}
-      </div>
+      </div> */}
+      <div className="text-2xl font-semibold text-center">TBA</div>
     </section>
   );
 }

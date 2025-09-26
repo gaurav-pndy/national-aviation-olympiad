@@ -35,7 +35,7 @@ export default function Footer() {
         {/* Brand & Socials */}
         <div className="col-span-2 md:col-span-1">
           <div className="flex  mb-2 gap-2">
-            <img src="/logo-light.png" alt="" className="h-16" />
+            <img src="/logo-light.png" alt="" className="h-16 md:h-20" />
           </div>
           <div className="text-sm mb-4 text-justify">
             National Aviation Olympiad is India’s premier aviation education

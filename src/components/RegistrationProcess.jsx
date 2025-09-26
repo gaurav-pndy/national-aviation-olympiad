@@ -88,63 +88,7 @@ export default function RegistrationProcess() {
             Register School <FaSchool />
           </motion.button>
         </motion.div>
-        {/* Individual Registration */}
-        <motion.div
-          className="bg-[#f9fafb]  border border-gray-300 p-6 flex flex-col"
-          initial={{ opacity: 0, x: 40 }}
-          whileInView={{ opacity: 1, x: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.5 }}
-        >
-          <div className=" text-xl mb-5 text-primary">
-            Individual Registration
-          </div>
-          <div className="space-y-5 mb-7">
-            <div className="flex gap-3">
-              <span className="bg-primary text-white  w-8 h-8 shrink-0 flex items-center justify-center  text-base">
-                1
-              </span>
-              <div>
-                <div className="text-lg text-primary">Student Details</div>
-                <div className="text-gray-700 ">
-                  Students provide personal information, current class, school
-                  details, and contact information.
-                </div>
-              </div>
-            </div>
-            <div className="flex gap-3">
-              <span className="bg-primary text-white  w-8 h-8 shrink-0 flex items-center justify-center  text-base">
-                2
-              </span>
-              <div>
-                <div className="text-lg text-primary">Document Upload</div>
-                <div className="text-gray-700 ">
-                  Upload school ID card, class certificate, and parental consent
-                  form for verification.
-                </div>
-              </div>
-            </div>
-            <div className="flex gap-3">
-              <span className="bg-primary text-white  w-8 h-8 shrink-0 flex items-center justify-center  text-base">
-                3
-              </span>
-              <div>
-                <div className="text-lg text-primary">Confirmation</div>
-                <div className="text-gray-700 ">
-                  Receive registration confirmation and examination center
-                  allocation for Stage 1 participation.
-                </div>
-              </div>
-            </div>
-          </div>
-          <motion.button
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.97 }}
-            className="bg-secondary text-primary  px-6 py-3 flex items-center justify-center gap-2 hover:bg-yellow-400 transition-all duration-300 cursor-pointer mt-auto"
-          >
-            Register Student <FaUserGraduate />
-          </motion.button>
-        </motion.div>
+
         <motion.div
           className="bg-[#f9fafb]  border border-gray-300 p-6 flex flex-col"
           initial={{ opacity: 0, x: 40 }}
@@ -208,36 +152,6 @@ export default function RegistrationProcess() {
           >
             Register as an Expert <GrUserExpert />
           </motion.button>
-        </motion.div>
-
-        {/* Important Registration Information */}
-        <motion.div
-          className="bg-[#f9fafb]  border border-gray-300 p-6  md:col-span-2"
-          initial={{ opacity: 0, y: 40 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.5 }}
-        >
-          <div className=" text-xl mb-6 text-primary text-center">
-            Important Registration Information
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
-            <div className="flex flex-col items-center">
-              <FaCalendarAlt className="text-primary text-2xl mb-2" />
-              <div className="text-lg text-primary">Registration Deadline</div>
-              <div className="text-gray-700">July 2026</div>
-            </div>
-            <div className="flex flex-col items-center">
-              <FaRupeeSign className="text-primary text-2xl mb-2" />
-              <div className="text-lg text-primary">Registration Fee</div>
-              <div className="text-gray-700 ">₹200</div>
-            </div>
-            <div className="flex flex-col items-center">
-              <FaUsers className="text-primary text-2xl mb-2" />
-              <div className="text-lg text-primary">Eligibility</div>
-              <div className="text-gray-700 ">Classes 8–12</div>
-            </div>
-          </div>
         </motion.div>
       </div>
     </section>

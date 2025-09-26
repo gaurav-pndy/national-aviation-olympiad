@@ -35,7 +35,7 @@ export default function Navbar() {
     <nav className="w-full z-20 fixed bg-white shadow-sm border-b border-gray-300">
       <div className="max-w-7xl mx-auto flex items-center justify-between py-5 px-4 md:px-6">
         <div className="flex text-primary items-center">
-          <img src="/logo.png" alt="Logo" className="h-14" />
+          <img src="/logo.png" alt="Logo" className="h-10 md:h-14" />
         </div>
         <div className="hidden lg:flex space-x-8 text-gray-700">
           {navLinks.map((link) => (
