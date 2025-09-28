@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { IoAirplane } from "react-icons/io5";
 import { FiMenu, FiX } from "react-icons/fi";
 import { motion, AnimatePresence } from "framer-motion";
+import { useNavigate, useParams } from "react-router-dom";
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -14,23 +15,45 @@ export default function Navbar() {
     { name: "Contact", href: "#contact" },
   ];
 
+  const location = useParams();
+  const navigate = useNavigate();
+
   const handleScroll = (e, href) => {
     e.preventDefault();
-    const targetId = href.substring(1);
-    const targetElement = document.getElementById(targetId);
-    const offset = 80; // change this value for desired margin from top
-    if (targetElement) {
-      const elementPosition =
-        targetElement.getBoundingClientRect().top + window.pageYOffset;
-      window.scrollTo({
-        top: elementPosition - offset,
-        behavior: "smooth",
-      });
-    } else if (href === "#") {
-      window.scrollTo({ top: 0, behavior: "smooth" });
+    if (location.pathname === "/") {
+      const targetId = href.substring(1);
+      const targetElement = document.getElementById(targetId);
+      const offset = 80; // change this value for desired margin from top
+      if (targetElement) {
+        const elementPosition =
+          targetElement.getBoundingClientRect().top + window.pageYOffset;
+        window.scrollTo({
+          top: elementPosition - offset,
+          behavior: "smooth",
+        });
+      } else if (href === "#") {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      }
+    } else {
+      navigate("/");
+
+      setTimeout(() => {
+        const targetId = href.substring(1);
+        const targetElement = document.getElementById(targetId);
+        const offset = 80; // change this value for desired margin from top
+        if (targetElement) {
+          const elementPosition =
+            targetElement.getBoundingClientRect().top + window.pageYOffset;
+          window.scrollTo({
+            top: elementPosition - offset,
+            behavior: "smooth",
+          });
+        } else if (href === "#") {
+          window.scrollTo({ top: 0, behavior: "smooth" });
+        }
+      }, 500);
     }
   };
-
   return (
     <nav className="w-full z-20 fixed bg-white shadow-sm border-b border-gray-300">
       <div className="max-w-7xl mx-auto flex items-center justify-between py-5 px-4 md:px-6">

@@ -11,22 +11,45 @@ import {
   FaPhoneAlt,
 } from "react-icons/fa";
 import { IoAirplane } from "react-icons/io5";
+import { Link, useNavigate, useParams } from "react-router-dom";
 
 export default function Footer() {
+  const location = useParams();
+  const navigate = useNavigate();
   const handleScroll = (e, href) => {
     e.preventDefault();
-    const targetId = href.substring(1);
-    const targetElement = document.getElementById(targetId);
-    const offset = 80; // change this value for desired margin from top
-    if (targetElement) {
-      const elementPosition =
-        targetElement.getBoundingClientRect().top + window.pageYOffset;
-      window.scrollTo({
-        top: elementPosition - offset,
-        behavior: "smooth",
-      });
-    } else if (href === "#") {
-      window.scrollTo({ top: 0, behavior: "smooth" });
+    if (location.pathname === "/") {
+      const targetId = href.substring(1);
+      const targetElement = document.getElementById(targetId);
+      const offset = 80; // change this value for desired margin from top
+      if (targetElement) {
+        const elementPosition =
+          targetElement.getBoundingClientRect().top + window.pageYOffset;
+        window.scrollTo({
+          top: elementPosition - offset,
+          behavior: "smooth",
+        });
+      } else if (href === "#") {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      }
+    } else {
+      navigate("/");
+
+      setTimeout(() => {
+        const targetId = href.substring(1);
+        const targetElement = document.getElementById(targetId);
+        const offset = 80; // change this value for desired margin from top
+        if (targetElement) {
+          const elementPosition =
+            targetElement.getBoundingClientRect().top + window.pageYOffset;
+          window.scrollTo({
+            top: elementPosition - offset,
+            behavior: "smooth",
+          });
+        } else if (href === "#") {
+          window.scrollTo({ top: 0, behavior: "smooth" });
+        }
+      }, 500);
     }
   };
   return (
@@ -196,9 +219,9 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto flex px-4 md:px-6 flex-col md:flex-row items-center justify-between text-sm text-blue-200">
         <div>© 2025 National Aviation Olympiad. All rights reserved.</div>
         <div className="space-x-4 mt-2 md:mt-0">
-          <a href="#">Privacy Policy</a>
-          <a href="#">Terms of Service</a>
-          <a href="#">Cookie Policy</a>
+          <Link to="privacy-policy">Privacy Policy</Link>
+          <Link to="terms-and-conditions">Terms & Conditions</Link>
+          <Link to="refund-policy">Refund Policy</Link>
         </div>
       </div>
     </footer>
