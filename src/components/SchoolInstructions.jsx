@@ -41,6 +41,13 @@ export default function SchoolInstructions() {
                 <b>Fee Structure:</b>.
               </span>
             </p>
+             <p className="flex ">
+              <FaCircle className=" shrink-0 text-secondary mt-2 text-xs mr-2" />
+              <span>
+                {" "}
+                <b>For Public schools:</b>.
+              </span>
+            </p>
             <ul className="mt-2 grid md:grid-cols-2 gap-4 list-inside  text-gray-700  pl-6">
               <li className="bg-[#f9fafb] border border-gray-300 p-4">
                 <h3 className="text-primary text-lg ">Till 31 March 2026:</h3>{" "}
@@ -53,21 +60,39 @@ export default function SchoolInstructions() {
                 Rs. 200/ - per Female student
               </li>
             </ul>
+             <p className="flex ">
+              <FaCircle className=" shrink-0 text-secondary mt-2 text-xs mr-2" />
+              <span>
+                {" "}
+                <b>For Goverment schools:</b>.
+              </span>
+            </p>
+
+             <ul className="mt-2 grid md:grid-cols-2 gap-4 list-inside  text-gray-700  pl-6">
+              <li className="bg-[#f9fafb] border border-gray-300 p-4">
+                <h3 className="text-primary text-lg ">Till 31 March 2026:</h3>{" "}
+                Rs. 75/ - per Male student <br />
+                Rs. 50/ - per Female student
+              </li>
+              <li className="bg-[#f9fafb] border border-gray-300 p-4">
+                <h3 className="text-primary text-lg ">From 01 April 2026:</h3>{" "}
+                Rs. 100/ - per Male student <br />
+                Rs. 75/ - per Female student
+              </li>
+            </ul>
           </li>
           <li className="flex ">
             <FaCircle className=" shrink-0 text-secondary mt-2 text-xs mr-2" />
             <span>
               {" "}
-              Each school must enroll a <b>minimum of 30 students</b> to
-              participate in the Olympiad.
+              A minimum participation of <b>35 students</b> in Middle school category and <b>15 students</b> in Higher school category is required for the school to be onboarded.
             </span>
           </li>
           <li className="flex ">
             <FaCircle className=" shrink-0 text-secondary mt-2 text-xs mr-2" />
             <span>
               {" "}
-              Exams will be conducted <b>online</b> through secure software or
-              LMS.
+             Exams will be conducted either through <b>online</b> or <b>offline</b> mode depending on the preference of the School.
             </span>
           </li>
           {/* <li className="flex ">

@@ -52,7 +52,7 @@ const timeline = [
   },
   {
     title: "Stage 2 Results",
-    desc: "Selection of 180 National Finalists",
+    desc: "Selection of 145 National Finalists",
     date: "May 1, 2026",
     side: "right",
     icon: <FaMedal className="text-white" />,

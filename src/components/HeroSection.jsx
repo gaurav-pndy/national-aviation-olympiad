@@ -34,7 +34,7 @@ export default function HeroSection() {
             National Aviation Olympiad-2026
           </h1>
           <h1 className="text-xl md:text-3xl  text-primary mb-6">
-            Ignite your minds, Elevate India’s skies
+            Igniting young minds, elevating India's skies
           </h1>
           <p className="text-lg md:text-xl text-gray-700 mb-8">
             1st Pan India Aviation Olympiad <br />
@@ -69,7 +69,7 @@ export default function HeroSection() {
         >
           <div className="w-full flex items-center justify-center rounded">
             <img
-              src="https://images.unsplash.com/photo-1543903905-cee4ab46985c?q=80&w=1172&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              src="./hero6.jpg"
               alt=""
               className="w-full max-h-90 h-full object-cover"
             />
@@ -86,7 +86,7 @@ export default function HeroSection() {
             delay={0.1}
           />
           <StatBox number="3" label="Competition Phases" delay={0.2} />
-          <StatBox number="180" label="National Qualifiers" delay={0.3} />
+          <StatBox number="145" label="National Qualifiers" delay={0.3} />
         </div>
       </div>
     </section>

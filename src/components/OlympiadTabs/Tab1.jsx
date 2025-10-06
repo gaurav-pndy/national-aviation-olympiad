@@ -145,7 +145,7 @@ const Tab1 = ({ zones }) => {
                 <div className="text-sm mb-1 text-gray-600 font-normal">
                   winners per state & UT
                 </div>
-                180
+                145
                 <div className="text-sm  text-gray-600 font-normal">
                   students qualify at National Level
                 </div>

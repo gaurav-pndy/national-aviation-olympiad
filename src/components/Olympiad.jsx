@@ -22,6 +22,10 @@ const zones = [
     label: "West Zone",
     states: "Maharashtra, Gujarat, Rajasthan, MP, Goa",
   },
+  {
+    label: "UT Zone",
+    states: "Ladakh, Jammu & Kashmir, Delhi, Chandigarh, Andaman & Nicobar Islands, Dadra & Nagar Haveli and Daman & Diu, Puducherry, Lakshadweep",
+  },
 ];
 
 export default function Olympiad() {
