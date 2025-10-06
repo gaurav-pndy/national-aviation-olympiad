@@ -29,7 +29,7 @@ export default function About() {
           The <b>National Aviation Olympiad (NAO),</b> organized by the Centre
           of
           <b> Scientific Outreach (CSO),</b> aims to build awareness about
-          aviation and aerospace while preparing students for a future-ready
+          aviation while preparing students for a future-ready
           workforce. The Olympiad will also open doors for young people to
           explore new technologies and career opportunities in the aviation
           sector.
