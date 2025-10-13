@@ -8,7 +8,7 @@ import Tab2 from "./OlympiadTabs/Tab2";
 const zones = [
   {
     label: "North Zone",
-    states: "Punjab, Haryana, Delhi, UP, Uttarakhand, HP, J&K",
+    states: "Punjab, Haryana,  Uttar Pradesh, Uttarakhand, HP, J&K",
   },
   {
     label: "South Zone",
@@ -20,11 +20,12 @@ const zones = [
   },
   {
     label: "West Zone",
-    states: "Maharashtra, Gujarat, Rajasthan, MP, Goa",
+    states: "Maharashtra, Gujarat, Rajasthan, Madhya Pradesh, Goa",
   },
   {
     label: "UT Zone",
-    states: "Ladakh, Jammu & Kashmir, Delhi, Chandigarh, Andaman & Nicobar Islands, Dadra & Nagar Haveli and Daman & Diu, Puducherry, Lakshadweep",
+    states:
+      "Ladakh, Jammu & Kashmir, Delhi, Chandigarh, Andaman & Nicobar Islands, Dadra & Nagar Haveli and Daman & Diu, Puducherry, Lakshadweep",
   },
 ];
 

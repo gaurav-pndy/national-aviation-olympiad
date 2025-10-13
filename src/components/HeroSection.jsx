@@ -69,7 +69,7 @@ export default function HeroSection() {
         >
           <div className="w-full flex items-center justify-center rounded">
             <img
-              src="./hero6.jpg"
+              src="./heroImage.jpg"
               alt=""
               className="w-full max-h-90 h-full object-cover"
             />

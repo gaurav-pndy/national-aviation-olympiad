@@ -17,7 +17,7 @@ const faqs = [
   },
   {
     q: "What is the registration fee and process?",
-    a: "The registration fee is ₹500 per student. Schools can register multiple students through bulk registration, or students can register individually. The process includes submitting required documents and making the payment online.",
+    a: "The registration fee is as defined here: <a class='text-blue-500' href='#school-instructions'>Registration Fees</a>",
   },
   {
     q: "How are the examination centers selected?",
@@ -134,7 +134,10 @@ export default function Contact() {
                   </span>
                 </button>
                 {i === openFaq && (
-                  <div className="py-3 text-gray-700 ">{item.a}</div>
+                  <div
+                    className="py-3 text-gray-700 "
+                    dangerouslySetInnerHTML={{ __html: item.a }}
+                  ></div>
                 )}
               </div>
             ))}
