@@ -29,9 +29,13 @@ const Tab1 = ({ zones }) => {
                 Examination Details
               </div>
               <ul className="text-gray-700   space-y-1">
-                <li className="flex items-center">
-                  <FaCircle className=" shrink-0 text-secondary text-xs mr-2" />{" "}
+                <li className="flex ">
+                  <FaCircle className="mt-1.5 shrink-0 text-secondary text-xs mr-2" />{" "}
                   Exam to be conducted at individual schools across India{" "}
+                </li>
+                <li className="flex ">
+                  <FaCircle className="mt-1.5 shrink-0 text-secondary text-xs mr-2" />{" "}
+                  Zonal conduction of examination on different dates{" "}
                 </li>
                 <li className="flex ">
                   <FaCircle className=" shrink-0 text-secondary mt-1.5 text-xs mr-2" />{" "}
@@ -112,8 +116,8 @@ const Tab1 = ({ zones }) => {
                   <FaCircle className=" shrink-0 text-secondary mt-1.5 text-xs mr-2" />
                   <span>
                     {" "}
-                    Exam to be conducted in 4 zones:{" "}
-                    <b>North, South, East, West </b>{" "}
+                    Exam to be conducted in 5 zones:{" "}
+                    <b>North, South, East, West and UT Zone </b>{" "}
                   </span>
                 </li>
                 <li className="flex ">

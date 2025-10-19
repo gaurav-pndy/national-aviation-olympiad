@@ -68,7 +68,7 @@ export default function ExpertCommittee() {
         >
           Expert Committee
         </motion.h2>
-        <motion.p
+        {/* <motion.p
           className="text-gray-700 max-w-3xl text-lg md:text-xl text-justify mx-auto"
           initial={{ y: 30, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
@@ -79,7 +79,7 @@ export default function ExpertCommittee() {
             To express your interest in joining this committee, please complete
             the form below for consideration
           </b>
-        </motion.p>
+        </motion.p> */}
       </div>
       {/* <div className="max-w-7xl px-4 md:px-6 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {experts.map((e, idx) => (

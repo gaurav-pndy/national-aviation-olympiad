@@ -19,7 +19,7 @@ export default function SchoolInstructions() {
             <FaCircle className=" shrink-0 text-secondary mt-2 text-xs mr-2" />
             <span>
               {" "}
-              Participation is open only through <b>school registration</b>.
+              Participation is open only through <b>school onboarding</b>.
             </span>
           </li>
           <li className="flex ">
@@ -29,13 +29,7 @@ export default function SchoolInstructions() {
               the form and pay the required fees.
             </span>
           </li>
-          <li className="flex ">
-            <FaCircle className=" shrink-0 text-secondary mt-2 text-xs mr-2" />
-            <span>
-              {" "}
-              The <b>examination fee is ₹200 per student</b>.
-            </span>
-          </li>
+
           <li className="flex flex-col">
             <p className="flex ">
               <FaCircle className=" shrink-0 text-secondary mt-2 text-xs mr-2" />
