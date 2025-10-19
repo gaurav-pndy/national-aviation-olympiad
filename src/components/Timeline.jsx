@@ -43,7 +43,7 @@ const timeline = [
     color: "white",
   },
   {
-    title: "Zonal Level",
+    title: "Stage 2: State Level",
     desc: "Regional examinations across four zones of India",
     date: "April 5–20, 2026",
     side: "left",
