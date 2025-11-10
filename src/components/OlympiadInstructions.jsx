@@ -60,9 +60,9 @@ export default function OlympiadInstructions() {
           <div className="bg-[#f9fafb] border border-gray-300 p-4">
             <h3 className="text-primary text-lg ">Level I – School Level:</h3>
             <p>
-              Conducted within each school; Top 10 Students from Group 1
-              (Classes 8, 9 & 10) and Top 5 Students from Group 2 (Classes 11 &
-              12) qualify for the State Level
+              Conducted within each school; Top 3 Students from Group 1 (Classes
+              8, 9 & 10) and Top 3 Students from Group 2 (Classes 11 & 12)
+              qualify for the State Level
             </p>
           </div>
           <div className="bg-[#f9fafb] border border-gray-300 p-4">

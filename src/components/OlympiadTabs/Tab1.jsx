@@ -63,10 +63,10 @@ const Tab1 = ({ zones }) => {
                 Qualification Criteria
               </div>
               <div className=" w-full bg-white border border-gray-300 px-4 py-4 inline-block  text-2xl text-primary text-center">
-                Top 15
+                Top 6
                 <div className="text-sm text-gray-600 font-normal">
-                  Students per school qualify for Zonal Level. (Group 1 – 10 |
-                  Group 2 – 5){" "}
+                  Students per school qualify for Zonal Level. (Group 1 – 3 |
+                  Group 2 – 3){" "}
                 </div>
               </div>
             </div>

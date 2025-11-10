@@ -47,12 +47,16 @@ export default function SchoolInstructions() {
             </p>
             <ul className="mt-2 grid md:grid-cols-2 gap-4 list-inside  text-gray-700  pl-6">
               <li className="bg-[#f9fafb] border border-gray-300 p-4">
-                <h3 className="text-primary text-lg ">Till 31 March 2026:</h3>{" "}
+                <h3 className="text-primary text-lg ">
+                  From 01st November 2025 until 30th April 2026:
+                </h3>{" "}
                 Rs. 200/ - per Male student <br />
                 Rs. 160/ - per Female student
               </li>
               <li className="bg-[#f9fafb] border border-gray-300 p-4">
-                <h3 className="text-primary text-lg ">From 01 April 2026:</h3>{" "}
+                <h3 className="text-primary text-lg ">
+                  From 01st May 2026 until 15th July 2026:
+                </h3>{" "}
                 Rs. 250/ - per Male student <br />
                 Rs. 200/ - per Female student
               </li>
@@ -67,12 +71,16 @@ export default function SchoolInstructions() {
 
             <ul className="mt-2 grid md:grid-cols-2 gap-4 list-inside  text-gray-700  pl-6">
               <li className="bg-[#f9fafb] border border-gray-300 p-4">
-                <h3 className="text-primary text-lg ">Till 31 March 2026:</h3>{" "}
+                <h3 className="text-primary text-lg ">
+                  From 01st November 2025 until 30th April 2026:
+                </h3>{" "}
                 Rs. 75/ - per Male student <br />
                 Rs. 50/ - per Female student
               </li>
               <li className="bg-[#f9fafb] border border-gray-300 p-4">
-                <h3 className="text-primary text-lg ">From 01 April 2026:</h3>{" "}
+                <h3 className="text-primary text-lg ">
+                  From 01st May 2026 until 15th July 2026:
+                </h3>{" "}
                 Rs. 100/ - per Male student <br />
                 Rs. 75/ - per Female student
               </li>
@@ -82,8 +90,8 @@ export default function SchoolInstructions() {
             <FaCircle className=" shrink-0 text-secondary mt-2 text-xs mr-2" />
             <span>
               {" "}
-              A minimum participation of <b>35 students</b> in Middle school
-              category and <b>15 students</b> in Higher school category is
+              A minimum participation of <b>10 students</b> in Middle school
+              category and <b>5 students</b> in Higher school category is
               required for the school to be onboarded.
             </span>
           </li>
